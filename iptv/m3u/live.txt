@@ -11,6 +11,7 @@ CCTV-5+,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221226171/396
 CCTV-6,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221226011/372609392.smil/index.m3u8?fmt=ts2hls1
 CCTV-7,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221225745/10000100000000060000000000146101_0.smil/index.m3u8?fmt=ts2hls1
 CCTV-8,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221226005/372609500.smil/index.m3u8?fmt=ts2hls1
+CCTV8K,http://[2409:8087:2001:20:2800:0:df6e:eb02]/wh7f454c46tw3737653395_1580816352/ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8?icpid=3&RTS=1678665935&from=40&popid=40&hms_devid=2039&prioritypopid=40&vqe=3
 CCTV-9,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221226031/376381190.smil/index.m3u8?fmt=ts2hls1
 CCTV-10,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221225685/10000100000000060000000000146100_0.smil/index.m3u8?fmt=ts2hls1
 CCTV-11,http://cdnfhrrs.gz.chinamobile.com:8006/PLTV/88888888/224/3221225746/10000100000000060000000000146099_0.smil/index.m3u8?fmt=ts2hls1
