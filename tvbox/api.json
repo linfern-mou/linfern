@@ -1,8 +1,4 @@
 {
-  "公众号": "影视范",
-  "qq频道": "TVBox本地包",
-  "qq频道链接": "https://pd.qq.com/s/2mvdgmij8",
-  "TG频道": "https://t.me/TVBoxlocal",
   "spider": "./0519fty.jar;md5;e8fe5d2c9d119879e383a85df8ffd027",
   "wallpaper": "http://饭太硬.ga/深色壁纸/api.php",
   "sites": [
@@ -18,7 +14,7 @@
     },
     {
       "key": "js豆瓣",
-      "name": "豆豆┃需本地包【影视范】公众号找本地佬",
+      "name": "豆豆┃推荐",
       "type": 3,
       "api": "./js/drpy.min.js",
       "ext": "./js/drpy.js",
