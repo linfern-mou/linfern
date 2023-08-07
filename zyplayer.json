@@ -61,6 +61,62 @@
     "id": 70,
     "resource": 57582
   },
+{
+    "key": "a72b2006-2ec2-547a-b2ce-b97ac1bee818",
+    "name": "酷影",
+    "api": "https://www.gsjtlxy.top/xgapp.php/v3/",
+    "download": "",
+    "playUrl": "",
+    "group": "高清无广",
+    "search": 1,
+    "status": true,
+    "isActive": true,
+    "type": 3,
+    "id": 73,
+    "resource": 9999
+  },
+  {
+    "key": "7f1efc3b-619b-52d3-8164-b3610171e17b",
+    "name": "落落",
+    "api": "https://1080dyw.com/icciu_api.php/v1.vod",
+    "download": "",
+    "playUrl": "",
+    "group": "高清无广",
+    "search": 1,
+    "type": 4,
+    "id": 74,
+    "isActive": true,
+    "status": true,
+    "resource": 57561
+  },
+  {
+    "key": "c6bdc676-babb-5dbb-b820-8e19b11e6078",
+    "name": "酷喵",
+    "api": "http://wkking.top/ikumiao_api.php/v1.vod",
+    "download": "",
+    "playUrl": "",
+    "group": "高清无广",
+    "search": 1,
+    "type": 4,
+    "id": 75,
+    "isActive": true,
+    "status": true,
+    "resource": 164385
+  },
+  {
+    "key": "1941078b-8cfe-5022-9ee8-96b9a413f56d",
+    "name": "小米",
+    "api": "https://www.moguys.xyz/api.php/app/",
+    "download": "",
+    "playUrl": "",
+    "group": "高清无广",
+    "search": 1,
+    "type": 3,
+    "id": 76,
+    "isActive": true,
+    "status": true,
+    "resource": 9999
+  }
   {
     "key": "ganfan",
     "name": "干饭",
