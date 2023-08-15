@@ -1,0 +1,19 @@
+{
+  "首页": "剧集",
+  "分类url": "https://dy18.fun/catalog?column={cateId}&sort=1&per_page=72&page={catePg}",
+  "二次截取": "type=\"application/json\">&&</script>",
+  "数组": "props.pageProps.mediaData.data",
+  "链接前缀": "https://dy18.fun/detail/",
+  "搜索url": "/search?type=1&keywords={wd}&page={pg}",
+  "搜索二次截取": "type=\"application/json\">&&</script>",
+  "搜索数组": "props.pageProps.searchMovieList.data",
+  "搜索链接前缀": "https://dy18.fun/detail/",
+  "影片年代": "videoinfo.year",
+  "影片地区": "videoinfo.area",
+  "影片类型": "videoinfo.type",
+  "导演": "videoinfo.director[].name",
+  "主演": "videoinfo.starring[].name(  )",
+  "简介": "videoinfo.introduction",
+  "播放二次截取": "videoDetail\":&&,\"recommendList",
+  "播放数组": "videoepisode.data"
+}
