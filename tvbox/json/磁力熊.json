@@ -1,0 +1,72 @@
+    
+    {
+    
+    "作者": "御风而行",
+    
+    "站名": "磁力熊",
+    
+    "主页url": "https://z.3412.net.cn/", 
+    
+    "播放请求头": "User-Agent$Mozilla/5.0 (Linux; Android 10; SAMSUNG SM-G9860) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/20.1 Chrome/106.0.5249.126 Mobile Safari/537.36",
+    
+    "首页": "电视剧$40", 
+    
+    "分类": "电影&电视剧&综艺&动漫", 
+    
+    "分类值": "3&12&10&4",  
+    
+    "分类url": "https://v.3412.net.cn:443/api.php?ac=list&cid={cateId}&page={catePg}&limit=24&keyword=", 
+    
+    "数组": "list[]", 
+    
+    "图片": "cover", 
+    
+    "标题": "title", 
+    
+    "副标题": "year", 
+    
+    "链接前缀": "https://v.3412.net.cn:443/api.php?ac=getinfo&id=", 
+    
+    "链接": "id", 
+    
+    "搜索模式": "1", 
+    
+    "搜索url": "https://v.3412.net.cn:443/api.php?ac=list&cid=0&page=1&limit=24&keyword={wd}", 
+    
+    "搜索数组": "list[]", 
+    
+    "搜索图片": "cover", 
+    
+    "搜索标题": "title", 
+    
+    "搜索链接": "id", 
+    
+    "搜索副标题": "year", 
+    
+    "搜索链接前缀": "https://v.3412.net.cn:443/api.php?ac=getinfo&id=", 
+    
+    "影片地区": "region\":\"&&\"",
+    
+    "影片类型": "release_date\":\"&&\"",
+    
+    "影片年代": "year\":\"&&\"",
+    
+    "导演": "director\":\"&&\"",
+    
+    "主演": "actors\":\"&&\"",
+    
+    "简介": "荷城茶秀提醒您请勿相信影片中的广告，以免上当受骗。+desc\":\"&&\"",
+    
+    "线路标题": "🌸熊熊在线播放🌸", 
+    
+    "嗅探词":"https://ccp-bj29-video-preview-hz.oss-cn-hangzhou.aliyuncs.com#.m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
+    
+    "播放列表": "data.eplist[]", 
+    
+    "播放标题": "title", 
+    
+    "播放链接": "url" ,
+    
+    "播放链接前缀": "https://player.i597.cc/?url=",
+    
+    "播放链接后缀": "&vfrom=%2F%3Fcid%3D12%26keyword%3D%26page%3D1%23nogo"}
