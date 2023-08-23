@@ -1,6 +1,6 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "spider": "https://jsd.cdn.zzko.cn/gh/linfern-mou/linfern@main/tvbox/jar/0822.jar",
+  "spider": "./jar/0822.jar",
   "sites": [
  
     {
