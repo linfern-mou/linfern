@@ -1,8 +1,8 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "warningText": "接口免费提供,仅供测试。",
   "spider": "./jar/0822.jar",
   "sites": [
-   
     {
       "key": "厂长",
       "name": "厂长┃资源",
@@ -12,6 +12,16 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/厂长影视.json"
+    },
+    {
+      "key": "荐片",
+      "name": "🔪荐片┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/荐片.js"
     },
     {
       "key": "素白白",
@@ -174,16 +184,6 @@
       "ext": "./json/新视觉影视.json"
     },
     {
-      "key": "荐片",
-      "name": "🔪荐片┃影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/荐片.js"
-    },
-    {
       "key": "360",
       "name": "360┃官源",
       "type": 3,
@@ -228,7 +228,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./json/耐看.json"
+      "ext": "./json/耐看影视.json"
     },
     {
       "key": "爱看tv",
@@ -493,6 +493,17 @@
       "filterable": 1
     },
     {
+      "key": "csp_蓝光网",
+      "name": "🧲蓝光网┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/XYQ.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/中国蓝光网.json"
+    },
+    {
       "key": "mp4磁力",
       "name": "🧲MP4┃磁力",
       "type": 3,
@@ -533,6 +544,16 @@
         "主演": "主演：&&</p>",
         "简介": "<p class=\"b1f40f7888\">&&</h2>"
       }
+    },
+    {
+      "key": "csp_6v磁力",
+      "name": "🧲新版6v┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/6v磁力.js"
     },
     {
       "key": "258",
@@ -595,61 +616,6 @@
     }
      },
     {
-      "key": "csp_Mp4Mov",
-      "name": "🧲Mp4电影┃磁力",
-      "type": 3,
-      "api": "csp_Mp4Mov",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_New6v",
-      "name": "🧲新6V┃磁力",
-      "type": 3,
-      "api": "csp_New6v",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.xb6v.com"
-    },
-    {
-      "key": "csp_SeedHub",
-      "name": "🧲SeedHub┃磁力",
-      "type": 3,
-      "api": "csp_SeedHub",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_KubaCL",
-      "name": "🧲酷吧┃磁力",
-      "type": 3,
-      "api": "csp_KubaCL",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_MeijuTT",
-      "name": "🧲美剧天堂┃磁力",
-      "type": 3,
-      "api": "csp_MeijuTT",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_MeijuMi",
-      "name": "🧲美剧迷┃磁力",
-      "type": 3,
-      "api": "csp_MeijuMi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "yohu",
       "name": "yohu┃影视",
       "type": 3,
@@ -661,7 +627,7 @@
     },
     {
       "key": "大豆",
-      "name": "大豆┃BPQ",
+      "name": "大豆┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -687,7 +653,7 @@
     },
     {
       "key": "熊猫",
-      "name": "熊猫┃BPQ",
+      "name": "熊猫┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -700,7 +666,7 @@
     },
     {
       "key": "奈奈",
-      "name": "1080迷┃BPQ",
+      "name": "1080迷┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -769,7 +735,7 @@
     },
     {
       "key": "蘑菇",
-      "name": "蘑菇┃BPQ",
+      "name": "蘑菇┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -810,7 +776,7 @@
     },
     {
       "key": "yunyun",
-      "name": "🗯️️芸芸┃BPQ",
+      "name": "🗯️️芸芸┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -830,7 +796,7 @@
     },
     {
       "key": "零度",
-      "name": "零度┃BPQ",
+      "name": "零度┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -840,7 +806,7 @@
     },
     {
       "key": "莱米",
-      "name": "莱米┃BPQ",
+      "name": "莱米┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -874,7 +840,7 @@
     },
     {
       "key": "土豪",
-      "name": "土豪┃BPQ",
+      "name": "土豪┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -900,7 +866,7 @@
     },
     {
       "key": "saohuo",
-      "name": "骚火┃BPQ",
+      "name": "骚火┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -922,7 +888,7 @@
     },
     {
       "key": "王子",
-      "name": "王子┃BPQ",
+      "name": "王子┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -932,7 +898,7 @@
     },
     {
       "key": "🌀暴风",
-      "name": "暴风┃BPQ",
+      "name": "暴风┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -942,7 +908,7 @@
     },
     {
       "key": "蚂蚁",
-      "name": "蚂蚁┃BPQ",
+      "name": "蚂蚁┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -952,7 +918,7 @@
     },
     {
       "key": "ok",
-      "name": "Free┃BPQ",
+      "name": "Free┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -988,7 +954,7 @@
     },
     {
       "key": "兔兔",
-      "name": "追剧兔｜BPQ",
+      "name": "追剧兔┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -1018,7 +984,7 @@
     },
     {
       "key": "臭蛋",
-      "name": "臭蛋蛋┃BPQ",
+      "name": "臭蛋蛋┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -1037,7 +1003,7 @@
     },
     {
       "key": "csp_XBPQ_JOJO",
-      "name": "JOJO┃BPQ",
+      "name": "JOJO┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -1550,7 +1516,7 @@
       "name": "fty",
       "type": 0,
       "playerType": 1,
-      "url": "https://jsd.cdn.zzko.cn/gh/linfern-mou/linfern@main/iptv/m3u/fty.txt",
+      "url": "./txt/fty.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
