@@ -1,11 +1,8 @@
 // 发布页  www.kankanju.vip
   {
-    
-    "作者":"荷城茶秀",
-    
     "站名":"看看剧",
     
-    "主页url":"https://kankanju.cc/",
+    "主页url":"https://kankanju.vip/",
     
     "简介":"请勿相信影片中的广告，以免上当受骗！+display: none;\">&&</span>",
     
@@ -29,7 +26,7 @@
     
     "搜索模式": "1",
     
-    "搜索url": "https://kankanju.cc/type/id-.html?wd={wd}",
+    "搜索url": "https://kankanju.vip/type/id-.html?wd={wd}",
     
     "线路数组":"data-toggle=&&</li>[排序:TT线路>KKJ线路>FY线路]",
     
@@ -41,7 +38,7 @@
     
     "播放列表":"<li>&&</li>",
     
-    "分类url":"https://kankanju.cc/vodshow/area/{area}/by/hits/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;akd0",
+    "分类url":"https://kankanju.vip/vodshow/area/{area}/by/hits/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html;;akd0",
     "免嗅":"1",
     "分类":"电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#纪录片$jilupian",
     

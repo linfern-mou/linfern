@@ -1,3 +1,5 @@
+///请保存网址发布页：rentry.org/dmd8 防和谐!永不迷路！
+
 var rule = {
     title:'动漫岛',
     // host:'http://www.dmd85.com',
