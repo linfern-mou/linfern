@@ -1,7 +1,7 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/0822.jar",
+  "spider": "./jar/0829.jar",
   "sites": [
     {
       "key": "厂长",
@@ -22,6 +22,43 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/荐片.js"
+    },
+    {
+      "key": "yumi",
+      "name": "🌞玉米┃采采",
+      "type": 1,
+      "api": "http://ym.xzam.cn:66/api.php/provide/vod/",
+      "playUrl": "json:http://42.157.128.109:2323/CH/zy/Yumi.php?url="
+    },
+    {
+      "key": "yy365",
+      "name": "年年┃APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://guan.yy365.vip/api.php/app/"
+    },
+    {
+      "key": "瑞丰",
+      "name": "🗯辣辣┃APP",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://www.miniku.cc/xgapp.php/v2/"
+    },
+    {
+      "key": "csp_艾迪",
+      "name": "爱迪┃APP",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
     {
       "key": "素白白",
@@ -219,6 +256,8 @@
         "分类": "电影$1#电视剧$31#综艺$3#动漫$4",
         "分类url": "https://www.xiaoluys.me/vodshow/{cateId}-{area}-hits-{class}-{lang}----{catePg}---{year}.html;;a",
        "线路数组": "class=\"module-tab-item tab-item&&</div>",
+       "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+       "嗅探词": "m3u8#mp4#flv#.mp3#.m4a",
        "免嗅": "0",
        "线路标题" :"🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸"
         }
@@ -502,15 +541,6 @@
     }
     }, 
     {
-      "key": "csp_Yj1211",
-      "name": "直播┃聚合",
-      "type": 3,
-      "api": "csp_Yj1211",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "csp_蓝光网",
       "name": "🧲蓝光网┃磁力",
       "type": 3,
@@ -597,7 +627,6 @@
       "name": "🧲电影港┃磁力",
       "type": 3,
       "api": "csp_XYQHiker",
-      "jar": "./jar/XYQ.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -608,7 +637,6 @@
       "name": "🧲4KHDR┃磁力",
       "type": 3,
       "api": "csp_XYQHiker",
-      "jar": "./jar/XYQ.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -715,6 +743,25 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "csp_Yj1211",
+      "name": "聚合┃直播",
+      "type": 3,
+      "api": "csp_Yj1211",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "磁力转点播",
+      "name": "磁力┃直播",
+      "type": 3,
+      "api": "./lib/磁力转点播.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./live/磁力直播仓.json"
     },
     {
       "key": "直播转点播",
@@ -1052,46 +1099,6 @@
       "ext": "./json/88看球.js"
     },
     {
-      "key": "YQK_spider",
-      "name": "一起┃APP",
-      "type": 3,
-      "api": "csp_YQKAPP",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://hk-api-cf.yqk5659.com"
-    },
-    {
-      "key": "365",
-      "name": "年年┃APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://guan.yy365.vip/api.php/app/"
-    },
-    {
-      "key": "瑞丰",
-      "name": "🗯辣辣┃APP",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.miniku.cc/xgapp.php/v2/"
-    },
-    {
-      "key": "csp_艾迪",
-      "name": "爱迪┃APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://api123.adys.app/xgapp.php/v3/"
-    },
-    {
       "key": "csp_WoGG",
       "name": "🎊玩偶┃阿里",
       "type": 3,
@@ -1183,7 +1190,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/alist.json"
+      "ext": "./live/alist.json"
     },
     {
       "key": "益智",
