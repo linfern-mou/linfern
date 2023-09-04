@@ -1,5 +1,5 @@
 {
-"站名":"精东影业1",
+"站名":"精东影业",
 "数组":"<a class=\"thum&&</a></h5>",
 "图片":"src=\"&&\"",
 "标题":"title=\"&&\"",
@@ -21,8 +21,9 @@
 "播放列表":"<li><a&&/a>",
 "播放标题":">&&<",
 "播放链接":"href=\"&&\"",
-"免嗅":"0",
+"免嗅":"1",
 "嗅探词":".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
-"分类":"麻豆传媒$madou#天美传媒$tianmei#果冻传媒$guodong#蜜桃影像$mitao#星空传媒$xingkong#精东影业$jingdongyingye#国产原创$yuanchuang",
-"分类url":"https://qq.jdav1.shop/smtype/{cateId}-{catePg}.html"
+"过滤词":"=http#.jpg#.png#.ico#.gif#.js",
+"分类":"林思妤$林思妤#吴梦梦$吴梦梦#张芸熙$张芸熙#沈娜娜$沈娜娜#秦可欣$秦可欣#夏晴子$夏晴子#雪千夏$雪千夏#艾 秋$艾 秋#换妻$换妻#户外$户外#秘书$秘书#邻居$邻居#乱伦$乱伦#91$91#直播$直播#探花$探花",
+"分类url":"https://qq.jdav1.shop/smsearch/{cateId}----------{catePg}---.html"
 }
