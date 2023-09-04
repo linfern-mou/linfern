@@ -1,22 +1,17 @@
 {
   "wallpaper": "https://picsum.photos/1080/",
-  "spider": "./jar/0821.jar",
+  "spider": "./jar/0829.jar",
   "lives": [
     {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL2xsaTg3NzkxODIvOS9yYXcvYnJhbmNoL21hc3Rlci9oemI="
-          ]
-        }
-      ]
+            "name": "阳尘直播",
+            "type": 0,
+            "playerType": 1,
+            "url": "./live/成人.txt"
     }
   ],
   "sites": [
   {
-      "key": "热播库",
+      "key": "热播之家",
       "name": "热播┃之家",
       "type": 3,
       "api": "csp_XBPQ",
@@ -50,6 +45,16 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json1/黑料不打烊.json"
+    },
+    {
+      "key": "missav",
+      "name": "missav┃之家",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/missav.json"
     },
     {
       "key": "csp_XBPQ_香蕉AV解说",

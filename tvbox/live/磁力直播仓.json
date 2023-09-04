@@ -2,21 +2,16 @@
         {
             "name": "电视剧",
             "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/linfern-mou/linfern/main/tvbox/live/电视剧磁力.txt"
+            "url": "https://qu.ax/qnbP.txt"
         },
         {
             "name": "磁力常规电影",
             "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/linfern-mou/linfern/main/tvbox/live/电影磁力.txt"
+            "url": "https://qu.ax/dzHV.txt"
         },
         {
-            "name": "磁力成人😍电影",
+            "name": "3D电影",
             "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/linfern-mou/linfern/main/tvbox/live/成人磁力.txt"
-        },
-        {
-            "name": "成人系列😍",
-            "type": 0,
-            "url": "https://ghproxy.net/raw.githubusercontent.com/linfern-mou/linfern/main/tvbox/live/成人.txt"
+            "url": "https://ghproxy.net/raw.githubusercontent.com/linfern-mou/linfern/main/tvbox/live/3D磁力.txt"
         }
 ]

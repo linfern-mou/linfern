@@ -1076,61 +1076,6 @@
       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|fhd|auto"
     },
     {
-      "key": "csp_XYQHikerAL_云盘资源",
-      "name": "📀云盘资源(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/云盘资源分享.json"
-    },
-    {
-      "key": "csp_XYQHikerAL_我的小站",
-      "name": "📀我的小站(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/我的小站.json"
-    },
-    {
-      "key": "csp_XYQHikerAL_阿里云盘网",
-      "name": "📀阿里云盘(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/阿里云盘网.json"
-    },
-    {
-      "key": "csp_XYQHikerAL_豆豆飞",
-      "name": "📀豆豆飞(搜索)",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/豆豆飞.json"
-    },
-    {
-      "key": "csp_XYQHiker_土拨鼠搜索",
-      "name": "📀土拨鼠(搜索)",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/土拨鼠搜索.json"
-    },
-    {
       "key": "dr_88看球",
       "name": "球赛┃体育",
       "type": 3,

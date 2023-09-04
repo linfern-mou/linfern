@@ -10,11 +10,8 @@
     },
         {
         "name" : "👍ECVE",
-        "server" : "https://pan.ecve.cn",
-        "startPage" : "/",
-        "showAll" : false,
-        "search" : true
-    },
+        "server" : "https://pan.ecve.cn"
+        },
         {
         "name" : "🌊七米蓝",
         "server" : "https://al.chirmyram.com",
@@ -25,10 +22,7 @@
        
         {
         "name" : "☃️姬路白雪",
-        "server" : "https://pan.jlbx.xyz",
-        "startPage" : "/",
-        "showAll" : false,
-        "search" : true
+        "server" : "https://pan.jlbx.xyz"
     },
         {
         "name" : "✨星梦",
