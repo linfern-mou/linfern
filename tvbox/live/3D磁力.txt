@@ -1,7 +1,13 @@
-ÂşÍşÏµÁĞ,#genre#
-¾ªÆæ¶Ó³¤,magnet:?xt=urn:btih:22de4ffd22dd85b280d94dc81db6c46fcca8b6cc&dn=Captain%20Marvel%20(2019)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
-¸´³ğÕßÁªÃË1, magnet:?xt=urn:btih:388d3a953cad698456941a712a0e54ff61e98402&dn=The.Avengers.2012.1080p.3D.BluRay.Half-SBS%E5%B7%A6%E5%8F%B3.x264.DTS-HD.MA.7.1-RARBG
-¸´³ğÕßÁªÃË2, magnet:?xt=urn:btih:7452f77255c2b284d966b94de3c46852a6a50096&dn=Avengers.Age.of.Ultron.2015.1080p.3D.BluRay.Half-OU%E4%B8%8A%E4%B8%8B.x264.DTS-HD.MA.7.1-RARBG
-¸´³ğÕßÁªÃË3, magnet:?xt=urn:btih:efe8ef808663f7bb33b5a2fdbdad2f30eb362c8e&dn=Avengers.Infinity.War.2018.1080p.3D.BluRay.Half-SBS.x264.DTS-HD.MA.7.1-FGT
-¸´³ğÕßÁªÃË4, magnet:?xt=urn:btih:7d150db9f608d2a264e35d6bdc7240b01c5516ad&dn=Avengers.Endgame.2019.1080p.3D.BluRay.Half-SBS.x264.TrueHD.7.1.Atmos-FGT
-¸ÖÌúÏÀ3,magnet:?xt=urn:btih:2970dd82762f79faf80b54a4f8040abfb198c74c&dn=Iron.Man.3.2013.1080p.3D.BluRay.Half-SBS.x264.DTS-HD.MA.7.1-RARBG
+æ¼«å¨ç³»åˆ—,#genre#
+æƒŠå¥‡é˜Ÿé•¿,magnet:?xt=urn:btih:22de4ffd22dd85b280d94dc81db6c46fcca8b6cc&dn=Captain%20Marvel%20(2019)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+å¤ä»‡è€…è”ç›Ÿ1, magnet:?xt=urn:btih:904bbc8a0ea38ef93ba2eb902f67eddfe9d64769&dn=The%20Avengers%20(2012)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+å¤ä»‡è€…è”ç›Ÿ2, magnet:?xt=urn:btih:b5d73567e878d8c5c4e0b8af9f6b10984c5b308f&dn=Avengers%20Age%20of%20Ultron%20(2015)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+å¤ä»‡è€…è”ç›Ÿ3, magnet:?xt=urn:btih:efe8ef808663f7bb33b5a2fdbdad2f30eb362c8e&dn=Avengers.Infinity.War.2018.1080p.3D.BluRay.Half-SBS.x264.DTS-HD.MA.7.1-FGT
+å¤ä»‡è€…è”ç›Ÿ4, magnet:?xt=urn:btih:ca020aeeebffd379f0ced4ebff1ca59beefdca78&dn=3D%E5%A4%8D%E4%BB%87%E8%80%85%E8%81%94%E7%9B%9F4.%E5%9B%BD%E8%8B%B1%E5%8F%8C%E8%AF%AD.%E5%87%BA%E5%B1%8F3D%E7%89%B9%E6%95%88%E5%9B%BD%E9%85%8D%E5%AD%97%E5%B9%95.Avengers%20Endgame%202019%203D.Half-SBS.BluRay.1080p.DTS%20x264-3DJINGPIN
+é’¢é“ä¾ 3,magnet:?xt=urn:btih:8720e95314a17e8ce3ccaeee7b55cb38cd86a536&dn=Iron%20Man%203%20(2013)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+å¥‡å¼‚åšå£«,magnet:?xt=urn:btih:6cde52c5c6d716bd2b58127edd4d35acbf0058a6&dn=Doctor%20Strange%20(2016)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+å¥‡å¼‚åšå£«2,magnet:?xt=urn:btih:dd9de02c5bfdae488867ade63e3eba1cf44e7e6e&dn=Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness%20(2022)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+é›·ç¥,magnet:?xt=urn:btih:8e6290a8fdb70bdac74797fc5ea2b89117fee6b1&dn=Thor%20(2011)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+é›·ç¥2,magnet:?xt=urn:btih:0498a4fdfcb72cf335cb5c8636b063b3a919a7e3&dn=Thor%20The%20Dark%20World%20(2013)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+é›·ç¥3,magnet:?xt=urn:btih:6786b2040dfeefa1ffce014fe1abd450784bc4b2&dn=Thor%20Ragnarok%20(2017)%203D%20HSBS%201080p%20BluRay%20H264%20DolbyD%205.1%20%2B%20nickarad
+é›·ç¥4,magnet:?xt=urn:btih:9ab83e4fa556ed9057e582ad5ac469fe342e948f&dn=Thor.Love.and.Thunder.2022.1080p.3D.BluRay.Half-OU.x264.TrueHD.7.1.Atmos-FGT
