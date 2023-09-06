@@ -867,16 +867,6 @@
       "ext": "./json/奇优影视.json"
     },
     {
-      "key": "yunyun",
-      "name": "🗯️️芸芸┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/云云.json"
-    },
-    {
       "key": "王者",
       "name": "王者┃影视",
       "type": 3,

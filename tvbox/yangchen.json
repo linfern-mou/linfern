@@ -35,24 +35,6 @@
       "ext": "http://guan.yy365.vip/api.php/app/"
     },
     {
-      "key": "淘剧",
-      "name": "淘剧┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/淘剧.json"
-    },
-    {
-      "key": "瑞丰",
-      "name": "🗯辣辣┃APP",
-      "type": 3,
-    
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://www.miniku.cc/xgapp.php/v2/"
-    },
-    {
       "key": "csp_艾迪",
       "name": "爱迪┃APP",
       "type": 3,
@@ -81,6 +63,13 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/子子影视.json"
+    },
+    {
+      "key": "淘剧",
+      "name": "淘剧┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./json/淘剧.json"
     },
     {
       "key": "csp_看看剧",
@@ -149,7 +138,7 @@
       "ext": "./json/达达龟.json"
     },
     {
-      "key": "策驰",
+      "key": "策驰影视",
       "name": "策驰┃影视",
       "type": 3,
       "api": "csp_XBPQ",
@@ -215,6 +204,24 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/热播之家.json"
+    },
+    {
+      "key": "在线之家",
+      "name": "在线┃之家",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "playerType": 2,
+      "ext": "./json/在线之家.js"
+    },
+    {
+      "key": "csp_低端",
+      "name": "低端┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/低端影视.js"
     },
     {
       "key": "速搜",
@@ -508,16 +515,6 @@
       "ext": "./json/农民影视.json"
     },
     {
-      "key": "csp_fk",
-      "name": "🍾菲克┃蓝光",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/菲克高清.json"
-    },
-    {
       "key": "csp_55",
       "name": "555┃高清",
       "type": 3,
@@ -715,16 +712,6 @@
     }
     },
     {
-      "key": "csp_低端",
-      "name": "低端┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/低端影视.json"
-    },
-    {
       "key": "熊猫",
       "name": "熊猫┃影视",
       "type": 3,
@@ -761,15 +748,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./json/drpy.js"
-    },
-    {
-      "key": "Kunyu77",
-      "name": "🗯️手机┃七七",
-      "type": 3,
-      "api": "csp_Kunyu77",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "csp_Yj1211",
@@ -867,16 +845,6 @@
       "ext": "./json/奇优影视.json"
     },
     {
-      "key": "yunyun",
-      "name": "🗯️️芸芸┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/云云.json"
-    },
-    {
       "key": "王者",
       "name": "王者┃影视",
       "type": 3,
@@ -907,30 +875,14 @@
       "ext": "./json/蚂蚁影院.json"
     },
     {
-      "key": "ok",
-      "name": "Free┃影视",
+      "key": "freeok",
+      "name": "Freeok┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": {
-        "分类url": "https://www.freeok.vip/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html;;m",
-        "分类": "电影&剧集&动漫&综艺",
-        "分类值": "1&2&3&4",
-        "嗅探词": "m3u8#.m3u8#.mp4#mp4",
-        "搜索url": "https://www.cupfox.app/s/{wd}",
-        "搜索模式": "1",
-        "搜索二次截取": "type=\"application/json\">&&</script>",
-        "搜索数组": "{\"te&&}[包含:freeok]",
-        "搜索图片": "http://xhww.fun:63/小米/4.jpeg",
-        "搜索标题": "xt\":\"&&\"",
-        "搜索链接": "\"url\":\"&&\"",
-        "搜索副标题": "module-item-note\">&&</div>",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "简介": "<p>&&</p>"
-      }
+      "ext":"./json/freeok.json"
     },
     {
       "key": "乐猪",
@@ -1484,7 +1436,7 @@
             "name": "阳尘直播",
             "type": 0,
             "playerType": 1,
-            "url": "https://jsd.cdn.zzko.cn/gh/linfern-mou/linfern@main/iptv/m3u/live.txt",
+            "url": "https://ghproxy.net/https://raw.githubusercontent.com/linfern-mou/linfern/main/iptv/m3u/yangchen.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -1492,7 +1444,7 @@
       "name": "fty",
       "type": 0,
       "playerType": 1,
-      "url": "./txt/fty.txt",
+      "url": "./live/fty.txt",
       "ua": "okhttp/3.12.13",
       "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
