@@ -96,7 +96,8 @@ if (/getvddr/.test(purl)) {
 }
 `;
 
-// 网址发布页 https://ddys.site///https://ddys.info/
+// 网址发布页 https://ddys.site///https://ddys.info/// 网址发布页 https://ddys.site
+// 网址发布页 https://ddys.wiki//https://ddys.love/
 var rule={
     title:'ddys',
     host:'https://ddys.pro',

@@ -31,6 +31,17 @@
       "ext": "./json/达达龟.json"
     },
     {
+      "key": "无极磁力",
+      "name": "无极┃磁力",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0,
+      "ext": "./json1/无极磁力.json"
+    },
+    {
       "key": "黑料不打烊",
       "name": "黑料┃不打烊",
       "type": 3,
