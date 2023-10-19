@@ -25,6 +25,16 @@
       "ext": "./json/荐片.js"
     },
     {
+      "key": "耐看",
+      "name": "耐看┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/耐看影视.json"
+    },
+    {
       "key": "csp_艾迪",
       "name": "爱迪┃APP",
       "type": 3,
@@ -56,11 +66,61 @@
       "ext": "./json/子子影视.json"
     },
     {
+      "key": "bttwo",
+      "name": "bttwo┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/bttwo.json"
+    },
+    {
+      "key": "csp_91",
+      "name": "91free┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/91free.json"
+    },
+    {
       "key": "淘剧",
       "name": "淘剧┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./json/淘剧.json"
+    },
+    {
+      "key": "蜗牛",
+      "name": "蜗牛┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.yizhiwo.cc/vodshow/{cateId}--{area}------{catePg}---{year}.html;;au0",
+        "嗅探词": "xunlei.com#m3u8#.mp4",
+        "分类": "电影$1#剧集$2#国产剧集$20#欧美剧集$21#动漫$3#综艺$4",
+        "搜索模式": "1",
+        "搜索url": "https://www.yizhiwo.cc/vodsearch/{wd}-------------.html"
+      }
+    },
+    {
+      "key": "蜗牛2",
+      "name": "蜗牛┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "playStartTime": 15,
+      "ext": {
+        "二次截取": "module-items&&<footer id=+module-item-cover",
+        "数组": "module-item-pic&&module-item-cover",
+        "副标题": "module-item-text*>&&</div>",
+        "简介": "剧情：</span>&&</span>",
+        "播放数组": "\"module-blocklist\">&&</div>",
+        "播放标题": "<span>&&</span>",
+        "分类": "电影$1#海外剧$2#日韩剧$21#动漫$20",
+        "分类url": "https://v.woniufan.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html;;m"
+      }
     },
     {
       "key": "csp_看看剧",
@@ -71,16 +131,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/看看剧.json"
-    },
-    {
-      "key": "bttwo",
-      "name": "bttwo┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/bttwo.json"
     },
     {
      "key": "皮皮虾",
@@ -111,16 +161,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/迷迷剧.json"
-    },
-    {
-      "key": "耐看",
-      "name": "耐看┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/耐看影视.json"
     },
     {
       "key": "土豪影视",
@@ -391,16 +431,6 @@
      }
     },
     {
-      "key": "csp_91",
-      "name": "91free┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/91free.json"
-    },
-    {
       "key": "动漫巴士",
       "name": "动漫┃巴士",
       "type": 3,
@@ -447,8 +477,38 @@
      }
     },
     {
+            "key": "新浪",
+            "name": "🏄🏻新浪┃采集",
+            "type": 1,
+            "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "大陆剧",
+                "动漫",
+                "综艺",
+                "纪录片",
+                "动作片",
+                "爱情片",
+                "科幻片",
+                "战争片",
+                "剧情片",
+                "恐怖片",
+                "喜剧片",
+                "港澳剧",
+                "台湾剧",
+                "欧美剧",
+                "动漫电影",
+                "韩剧",
+                "日剧",
+                "泰剧",
+                "体育"
+            ]
+        },
+    {
       "key": "快帆",
-      "name": "⛵┃快帆┃采集",
+      "name": "⛵快帆┃采集",
       "type": 1,
       "api": "https://api.kuaifan.tv/api.php/provide/vod",
       "categories": [
@@ -1235,6 +1295,7 @@
       "api": "csp_PushAgent",
       "searchable": 1,
       "quickSearch": 1,
+      "timeout": 60,
       "filterable": 0,
       "ext": "./token.txt"
     }
@@ -1690,6 +1751,18 @@
       ],
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    },
+    {
+      "name": "蜗牛直连去广",
+      "hosts": [
+        "vip.123pan.cn",
+        "rescdn.wuxivlog.cn"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
