@@ -76,6 +76,18 @@
       "ext": "./json/bttwo.json"
     },
     {
+      "key": "tvb云播",
+      "name": "云播┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": "1",
+      "jar": "./jar/暴脾气.jar",
+      "ext": "./json/tvb云播.json"
+    },
+    {
       "key": "csp_91",
       "name": "91free┃影视",
       "type": 3,
@@ -96,8 +108,8 @@
       "ext": "./json/vidhub.json"
     },
     {
-      "key": "淘剧",
-      "name": "淘剧┃影视",
+      "key": "小镇",
+      "name": "小镇┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./json/淘剧.json"
@@ -1195,7 +1207,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar":"./jar/fty.jar",
-      "ext": "./token.txt+4k|fhd|auto"
+      "ext": "./token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
     },
     {
       "key": "Gitcafe",
@@ -1808,45 +1820,6 @@
       ]
     },
     {
-      "host": "www.sharenice.net",
-      "rule": [
-        "http.*?/play.{0,3}\\?[^url]{2,8}=.*",
-        "qianpailive.com",
-        "vid="
-      ]
-    },
-    {
-      "name": "量子广告",
-      "hosts": [
-        "vip.lz",
-        "hd.lz"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "非凡广告",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
-      ]
-    },
-    {
-      "name": "暴风广告",
-      "hosts": [
-        "bfzy",
-        "s5.bfzycdn"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
       "name": "蜗牛直连去广",
       "hosts": [
         "vip.123pan.cn",
@@ -1859,12 +1832,25 @@
       ]
     },
     {
-      "name": "索尼广告",
+      "host": "www.sharenice.net",
+      "rule": [
+        "http.*?/play.{0,3}\\?[^url]{2,8}=.*",
+        "qianpailive.com",
+        "vid="
+      ]
+    },
+    {
+      "name": "采集站广告",
       "hosts": [
-        "suonizy"
+        "vip.ffzy",
+        "hd.ffzy",
+        "vip.lz",
+        "hd.lz",
+        ".cdnlz",
+        "suonizy",
+        "bfzy"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
@@ -1875,6 +1861,8 @@
       ],
       "regex": [
         "更多",
+        "请访问",
+        "example",
         "社 區",
         "x u u",
         "最 新",
@@ -1884,14 +1872,11 @@
         "有 趣",
         "英皇体育",
         "全中文AV在线",
-        "澳门",
-        "注册",
+        "澳门皇冠赌场",
         "哥哥快来",
         "美女荷官",
         "裸聊",
         "新片首发",
-        "这样看电影",
-        "GOOVIS",
         "UUE29"
       ]
     }
