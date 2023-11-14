@@ -3,7 +3,36 @@
   "warningText": "接口免费提供,仅供测试",
   "spider": "./jar/1013.jar",
   "sites": [
-
+    {
+      "key": "csp_WoGG",
+      "name": "玩偶┃阿里",
+      "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar":"./jar/fty.jar",
+      "ext": "./token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+    },
+    {
+      "key": "JustLive",
+      "name": "直播 | JustLive",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "./json/JustLive.js"
+    },
+    {
+      "key": "bttwo",
+      "name": "bttwo┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/bttwo.json"
+    },
     {
       "key": "厂长",
       "name": "厂长┃影视",
@@ -64,16 +93,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/子子影视.json"
-    },
-    {
-      "key": "bttwo",
-      "name": "bttwo┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/bttwo.json"
     },
     {
       "key": "tvb云播",
@@ -1005,15 +1024,6 @@
       "filterable": 1
     },
     {
-      "key": "JustLive",
-      "name": "弹幕 | JustLive",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./json/JustLive.js"
-    },
-    {
       "key": "磁力转点播",
       "name": "磁力┃直播",
       "type": 3,
@@ -1198,17 +1208,6 @@
         "三次跳转播放链接": "\"url\"*\"&&\""
       }
     },    
-    {
-      "key": "csp_WoGG",
-      "name": "📀玩偶┃阿里",
-      "type": 3,
-      "api": "csp_WoGG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "jar":"./jar/fty.jar",
-      "ext": "./token.txt+4k|auto|fhd$$$https://www.wogg.xyz/$$$弹"
-    },
     {
       "key": "Gitcafe",
       "name": "📀小纸条┃阿里",
