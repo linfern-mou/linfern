@@ -1,11 +1,11 @@
 {
   "作者": "菜妮丝https://cainisi.cf",
   "站名": "Vidhub",
-  "主页url": "https://vidhub.cc",
+  "主页url": "https://vidhub2.cc",///vidhub.tv///发布页vidhub.link
   
   "分类": "电影$1#连续剧$2#综艺$3#动漫$4",
   
-  "分类url": "https://vidhub.cc/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+  "分类url": "https://vidhub2.cc/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
   
   "数组": "module-item\">&&</div>",
   "图片": "data-src=\"&&\"",
