@@ -3,16 +3,16 @@
   "warningText": "接口免费提供,仅供测试",
   "spider": "./jar/1013.jar",
   "sites": [
-    {
-      "key": "csp_WoGG",
-      "name": "玩偶┃阿里",
+       {
+      "key": "玩偶",
+      "name": "📀玩偶┃阿里",
       "type": 3,
-      "api": "csp_WoGG",
+      "api": "csp_XYQHikerAL",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar":"./jar/fty.jar",
-      "ext": "./token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
+      "filterable": 1,
+      "ext": "./json/玩偶哥哥.json"
     },
     {
       "key": "JustLive",
@@ -818,6 +818,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/中国蓝光网.json"
+    },
+    {
+      "key": "蚂蚁4k",
+      "name": "🧲蚂蚁┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/蚂蚁4K.json"
     },
     {
       "key": "mp4磁力",
