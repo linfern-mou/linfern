@@ -1,4 +1,4 @@
-// https://m.agemys.org/#/永久地址：age.tv、agefans.com
+// https://m.agemys.org/#/
 
 var rule = {
 	title:'AGE动漫',
