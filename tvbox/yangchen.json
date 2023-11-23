@@ -58,6 +58,16 @@
       "ext": "./json/bttwo.json"
     },
     {
+      "key": "csp_91",
+      "name": "91free┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/91free.json"
+    },
+    {
       "key": "csp_艾迪",
       "name": "爱迪┃APP",
       "type": 3,
@@ -86,6 +96,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
+      "jar": "./jar/XBPQ.jar",
       "ext": "./json/素白白.json"
     },
     {
@@ -165,18 +176,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": "1",
-      "jar": "./jar/暴脾气.jar",
       "ext": "./json/tvb云播.json"
-    },
-    {
-      "key": "csp_91",
-      "name": "91free┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/91free.json"
     },
     {
       "key": "vidhub",
