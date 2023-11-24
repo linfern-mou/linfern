@@ -1,0 +1,16 @@
+{
+  "name": "茶杯狐",
+  "主页url": "https://www.cupfox.cc",
+
+  "分类": "电影$1#电视剧$2#综艺$3#动漫$4#国产剧$13#欧美剧$18#伦理片$20", 
+  "分类url": "https://www.cupfox.cc/fox/{cateId}-{catePg}.html",
+  "数组": "class=\"fed-list-item&&</li>", 
+  "标题": "class=\"fed-list-title*>&&</a>",
+  "链接": "href=\"&&\"", 
+  "图片": "data-original=\"&&\"",
+  "副标题": "class=\"fed-list-remarks*>&&</span>",
+ 
+  
+  "线路数组": "class=\"fed-drop-head fed&&</ul>",
+  "线路标题": "class=\"fed-padding*>&&</li>"
+}
