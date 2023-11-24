@@ -1,0 +1,34 @@
+{ 
+  "作者":"御风而行",
+  "站名": "auete",  
+  "主页url": "https://auete.org/",
+  "数组": "class=\"trans_3&&</div>",
+  "图片": "img src=\"&&\"",
+  "标题": "title=\"&&\"",
+  "链接": "href=\"&&\"",
+  "副标题":"class=\"hdtag\">&&</button>",
+      
+  "分类": "电影&电视剧&综艺&动漫",
+  "分类值": "Movie&Tv&Zy&Dm",
+  "分类url": "https://auete.org/{cateId}/index{catePg}.html[https://auete.org/{cateId}/index.html]",
+  
+  "搜索模式": "1",
+  
+  "影片地区":"影片地区:&&</p>",
+  "影片类型":"影片备注:&&</p>",
+  "导演":"影片导演:&&</p>",
+  "主演":"影片主演:&&</p>",
+  "简介":"影片简介:&&<div",
+  
+ 
+  "线路数组": "id=\"player_list&&<span",
+  "线路标题": "</i>*』&&：",
+
+  "播放数组": "id=\"player_list&&</ul>",
+  "播放列表":"<li&&</li>",
+  "播放标题":">&&</a>",
+  "播放链接":"href=\"&&\"",
+  "嗅探词":".m3u8#.mp4#.flv#.m4a#.avi#.mkv#.mov#.3gp#.asf#.rm#.rmvb#.wmv#.mpg#.mpeg#.mpe#.ts#.vob#.mp3#.wma",
+  "过滤词":"=http#.jpg#.png#.ico#.gif#.js#.html"}
+  
+  
