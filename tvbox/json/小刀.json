@@ -1,0 +1,8 @@
+{
+"站名":"小刀电影",
+"请求头": "User-Agent$Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; LYA-AL10 Build/HUAWEILYA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.5.7.342 Mobile Safari/537.36",
+
+"分类":"电影$1#电视剧$2#综艺$3#动漫$4",
+"分类url":"https://www.xdys.cc/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html;;k"
+    
+}
