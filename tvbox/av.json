@@ -83,7 +83,6 @@
       "name": "🥇葡萄┃资源",
       "type": 1,
       "api": "https://caiji.putaozyw.net/inc/apijson_vod.php",
-      "playUrl": "https://jiexi.putaozyw.com/m3u8/?url=",
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1
