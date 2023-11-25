@@ -119,6 +119,19 @@
       "ext": "./json/阿布影院.js"
     },
     {
+      "key": "我爱影视",
+      "name": "我爱┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://100.mvsky.xyz/vodshow/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",
+        "嗅探词": "m3u8#.mp4",
+        "分类": "电影$31#剧集$32#动漫$33#综艺$34#纪录片$36",
+        "搜索模式": "1",
+        "搜索url": "https://100.mvsky.xyz/vodsearch/{wd}----------{pg}---.html"
+      }
+    },
+    {
       "key": "玩偶",
       "name": "📀玩偶┃阿里",
       "type": 3,
@@ -196,54 +209,18 @@
       "ext": "./json/淘剧.json"
     },
     {
-      "key": "蜗牛",
-      "name": "蜗牛┃影视",
+      "key": "看看剧",
+      "name": "剧圈圈┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://www.yizhiwo.cc/vodshow/{cateId}--{area}------{catePg}---{year}.html;;au0",
-        "嗅探词": "xunlei.com#m3u8#.mp4",
-        "分类": "电影$1#剧集$2#国产剧集$20#欧美剧集$21#动漫$3#综艺$4",
+        "分类url":"https://www.jqqzx.cc/vodshow/area/{area}/by/hits/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 13；； 2106118C Build/TKQ1.220829.002；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.60 Mobile Safari/537.36&&Cookie@_ga_4X0394353L=GS1.1.1693421831.1.0.1693421831.0.0.0；； _ga=GA1.1.541556809.1693421831",
+        "免嗅":"1",
+        "分类":"电影$dianying#剧集$juji#综艺$zongyi#动漫$dongman",
         "搜索模式": "1",
-        "搜索url": "https://www.yizhiwo.cc/vodsearch/{wd}-------------.html"
+        "搜索url": "https://www.jqqzx.cc/type/id-.html?wd={wd}"
       }
-    },
-    {
-      "key": "蜗牛2",
-      "name": "蜗牛┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playStartTime": 15,
-      "ext": {
-        "二次截取": "module-items&&<footer id=+module-item-cover",
-        "数组": "module-item-pic&&module-item-cover",
-        "副标题": "module-item-text*>&&</div>",
-        "简介": "剧情：</span>&&</span>",
-        "播放数组": "\"module-blocklist\">&&</div>",
-        "播放标题": "<span>&&</span>",
-        "分类": "电影$1#海外剧$2#日韩剧$21#动漫$20",
-        "分类url": "https://v.woniufan.cn/index.php/vod/show/id/{cateId}/page/{catePg}.html;;m"
-      }
-    },
-    {
-      "key": "csp_看看剧",
-      "name": "看看剧┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/看看剧.json"
-    },
-    {
-     "key": "皮皮虾",
-     "name": "皮皮虾┃影视",
-     "type": 3,
-     "searchable": 1,
-     "quickSearch": 1,
-     "filterable": 0,
-     "api": "csp_XBPQ",
-     "ext": "./json/皮皮虾影视.json"
     },
     {
       "key": "csp_XYQHiker_好戏网",
@@ -296,22 +273,6 @@
         "分类url": "https://www.tuhao.tv/vsh/{cateId}-{area}-------{catePg}---{year}.html",
         "分类": "电影$1#剧集$2#动漫$4#纪录片$3#综艺$5#B站$50#电影解说$57#体育$56"
       }
-    },
-    {
-      "key": "爱看tv",
-      "name": "爱看┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-       "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-       "线路数组": "class=\"title\">&&</div>",
-       "线路标题": ">&&</h3>",
-       "分类": "电影$1#剧集$2#综艺$3#动漫$4",
-       "分类url": "https://www.ikandy2.fun/vodshow/{cateId}-{area}-------{catePg}---{year}/"
-    }
     },
     {
       "key": "csp_007",
@@ -418,16 +379,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/低端影视.js"
-    },
-    {
-      "key": "速搜",
-      "name": "速搜┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/速搜TV.json"
     },
     {
       "key": "视觉",
@@ -1459,7 +1410,7 @@
       "api": "csp_PushAgent",
       "searchable": 1,
       "quickSearch": 1,
-      "timeout": 60,
+      "timeout": 5000,
       "filterable": 0,
       "ext": "./token.txt"
     }
