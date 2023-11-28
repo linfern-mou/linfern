@@ -94,7 +94,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "jar": "./jar/XBPQ.jar",
       "ext": "./json/素白白.json"
     },
     {
@@ -105,6 +104,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "playerType": "2",
       "ext": "./json/子子影视.json"
     },
     {
@@ -156,6 +156,7 @@
         "数组": "class=\"img-box cover-md&&</p>",
         "链接": "href=\"&&\"",
         "标题": "title*\">&&</a>",
+        "跳转播放链接": "\"url\"*\"&&\"",
         "副标题": "<div class=\"module-item-text\">&&</div>",
         "图片": "data-src=\"&&\"",
         "线路数组": "class=\"module-tab-item tab-item&&</div>",
@@ -163,6 +164,7 @@
         "线路标题": "data-dropdown-value=\"&&\"",
         "播放数组": "<div class=\"scroll-content\">&&</div>",
         "播放标题": "<span>&&</span>",
+        "免嗅": "1",
         "播放列表": "<a&&</a>"
       }
     },
@@ -192,6 +194,7 @@
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
+      "playerType": "1",
       "filterable": 0,
       "ext": "./json/荐片.js"
     },
@@ -272,7 +275,6 @@
       "key": "土豪影视",
       "name": "🥇土豪┃影视",
       "type": 3,
-      "playerType": 2,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
@@ -385,7 +387,6 @@
       "name": "🥇在线┃影视",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "playerType": 2,
       "ext": "./json/在线之家.js"
     },
     {
@@ -1164,7 +1165,6 @@
       "name": "📀小纸条┃阿里",
       "type": 3,
       "api": "csp_Gitcafe",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1245,7 +1245,6 @@
       "name": "📀皮卡搜┃阿里",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1256,7 +1255,6 @@
       "name": "📀云盘资源┃阿里",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1267,7 +1265,6 @@
       "name": "📀小站┃阿里",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1278,7 +1275,6 @@
       "name": "📀云盘网┃阿里",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1289,7 +1285,6 @@
       "name": "📀豆豆飞┃阿里",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1300,7 +1295,6 @@
       "name": "📀土拨鼠┃阿里",
       "type": 3,
       "api": "csp_XYQHiker",
-      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1396,7 +1390,7 @@
     {
       "name": "777",
       "type": 0,
-      "url": "https://jx.777jiexi.com/player/?url="
+      "url": "https://jx.777jiexi.com/.er/?url="
     },
     {
       "name": "杰森",
