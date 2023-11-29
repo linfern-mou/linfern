@@ -123,6 +123,7 @@
       "api": "csp_XBPQ",
       "ext": {
         "分类url": "https://100.mvsky.xyz/vodshow/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
         "嗅探词": "m3u8#.mp4",
         "分类": "电影$31#剧集$32#动漫$33#综艺$34#纪录片$36",
        "线路数组": "data-dropdown-value&&</div>",
@@ -139,8 +140,11 @@
       "ext": {
         "分类url": "https://www.52gen.vip/vodshow/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",//防丢失：fabu.timiys.vip
         "嗅探词": "m3u8#.mp4",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
         "分类": "电影$dianying#剧集$lianxuju#动漫$dongman#综艺$zongyi",
         "搜索模式": "1",
+        "线路数组": "data-dropdown-value&&</div>",
+        "线路标题": "🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸",
         "搜索url": "https://www.52gen.vip/vodsearch/{wd}----------{pg}---.html"
       }
     },
@@ -218,16 +222,6 @@
       "filterable": 1,
       "playerType": "1",
       "ext": "./json/TVB云播.json"
-    },
-    {
-      "key": "vidhub",
-      "name": "🥇vidhub┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/vidhub.json"
     },
     {
       "key": "小镇",
@@ -674,6 +668,38 @@
       "name": "🥈快看┃采集",
       "type": 1,
       "api": "https://kuaikan-api.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "国产剧",
+        "国产综艺",
+        "国产动漫",
+        "日本动漫",
+        "纪录片",
+        "韩国剧",
+        "香港剧",
+        "台湾剧",
+        "欧美剧",
+        "动作片",
+        "科幻片",
+        "战争片",
+        "奇幻片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "犯罪片",
+        "悬疑片",
+        "惊悚片",
+        "剧情片",
+        "冒险片"
+      ]
+    },
+    {
+      "key": "索尼资源",
+      "name": "🥈索尼┃采集",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -1360,33 +1386,16 @@
     }
   ],
 "parses": [
-    {
-      "name": "聚合1",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
+   {
       "name": "聚合0",
       "type": 3,
       "url": "Web"
     },
     {
-      "name": "比u比u🥭",
-      "type": 1,
-      "url": "https://jxjson.cf/json.php?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "mgtv",
-          "YuMi-vip"
-        ]
-     } 
+      "name": "聚合1",
+      "type": 3,
+      "url": "Demo"
     },
-    {
-            "name": "小鱼解析",
-            "type": 1,
-            "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
-        },
     {
       "name": "777",
       "type": 0,
@@ -1396,36 +1405,6 @@
       "name": "杰森",
       "type": 0,
       "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
-      "name": "大家",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "flag": [
-          "qq",
-          "腾讯",
-          "qiyi",
-          "爱奇艺",
-          "奇艺",
-          "youku",
-          "优酷",
-          "mgtv",
-          "芒果",
-          "imgo",
-          "letv",
-          "乐视",
-          "pptv",
-          "PPTV",
-          "sohu",
-          "bilibili",
-          "哔哩哔哩",
-          "哔哩"
-        ],
-        "header": {
-          "User-Agent": "okhttp/4.1.0"
-        }
-      }
     },
     {
       "name": "虾米",
@@ -1465,6 +1444,23 @@
           "User-Agent": "okhttp/4.1.0"
         }
       }
+    },
+    {
+      "name": "比u比u🥭",
+      "type": 1,
+      "url": "https://jxjson.cf/json.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "mgtv",
+          "YuMi-vip"
+        ]
+     } 
+    },
+    {
+            "name": "小鱼解析",
+            "type": 1,
+            "url": "http://json.84jia.com/home/api?type=ys&uid=335253&key=acefhmqsxEMPRVYZ26&url="
     }
   ],
   "lives": [
@@ -1555,6 +1551,18 @@
       ]
     },
     {
+      "name": "sn",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+      "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1.040000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+		"#EXTINF.*?\\s+.*?original.*?\\.ts\\s+",
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
       "name": "磁力广告",
       "hosts": [
         "magnet"
@@ -1563,9 +1571,9 @@
         "更多",
         "请访问",
         "example",
-        "社 區",
+        "社區",
         "x u u",
-        "最 新",
+        "最新",
         "直 播",
         "更 新",
         "社 区",
@@ -1578,6 +1586,50 @@
         "裸聊",
         "新片首发",
         "UUE29"
+      ]
+    }
+  ],
+    "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
       ]
     }
   ],
