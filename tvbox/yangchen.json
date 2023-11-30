@@ -35,6 +35,15 @@
       "ext": "https://api123.adys.app/xgapp.php/v3/"
     },
     {
+      "key": "迷你",
+      "name": "🍚迷你┃APP",
+      "type": 3,
+      "api": "csp_AppYs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "http://www.miniku.cc/xgapp.php/v2/"
+    },
+    {
       "key": "玩偶",
       "name": "📀玩偶┃阿里",
       "type": 3,
@@ -509,7 +518,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/age动漫.js"
+      "ext": "./json/AGE动漫.js"
     },
     {
       "key": "时光",
@@ -1500,7 +1509,8 @@
         "hd.lz",
         ".cdnlz",
         "suonizy",
-        "bfzy"
+        "bfzy",
+        "kuaikan"
       ],
       "regex": [
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
