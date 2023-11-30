@@ -1233,6 +1233,17 @@
       "ext": "./json/阿里云盘网.json"
     },
     {
+      "key": "六月听书",
+      "name": "🥇六月┃听书",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json/六月听书.json"
+    },
+    {
       "key": "dr_88看球",
       "name": "🥇球赛┃体育",
       "type": 3,
