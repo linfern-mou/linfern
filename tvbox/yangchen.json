@@ -572,7 +572,7 @@
                 "港台动漫",
                 "海外动漫"
             ]
-        },
+    },
      {
             "key": "zy_非凡资源",
             "name": "🏆非凡┃采集",
@@ -729,16 +729,6 @@
     }
     },
     {
-      "key": "饭团",
-      "name": "🥇饭团┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/饭团影视.json"
-    },
-    {
       "key": "农民",
       "name": "🥇农民┃影视",
       "type": 3,
@@ -754,6 +744,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
+      "playerType": "1",
       "quickSearch": 1,
       "filterable": 0,
       "ext":"./json/圣城影视.json"
@@ -764,8 +755,9 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
+      "playerType": "1",
       "quickSearch": 1,
-      "filterable": 0,
+      "filterable": 1,
       "ext": "./json/疯狗影视.json"
     },
     {
@@ -782,6 +774,8 @@
         "图片": "data-original=\"&&\"",
         "标题": "title=\"&&\"",
         "链接": "href=\"&&\"",
+        "跳转播放链接": "\"url\"*\"&&\"",
+        "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
         "倒序播放": "0",   
         "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
     }
@@ -871,7 +865,7 @@
       "filterable": 1
     },
     {
-      "key": "csp_XYQHiker_高清MP4",
+      "key": "高清MP4",
       "name": "🧲高清MP4┃磁力",
       "type": 3,
       "api": "csp_XYQHiker",
@@ -960,7 +954,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./json/6v磁力.js"
+      "ext": "./json/6V磁力.js"
     },
     {
       "key": "258",
@@ -1043,16 +1037,6 @@
       "filterable": 0,
       "ext": "./json/drpy.js"
     },
-    {
-      "key": "蘑菇",
-      "name": "🥇蘑菇┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/蘑菇影视.json"
-    },
     {"key": "奇优",
       "name": "🥇奇优┃影视",
       "type": 3,
@@ -1061,26 +1045,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/奇优影视.json"
-    },
-    {
-      "key": "王者",
-      "name": "🥇王者┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/王者影视.json"
-    },
-    {
-      "key": "🌀暴风",
-      "name": "🥇暴风┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/暴风资源.json"
     },
     {
       "key": "蚂蚁",
@@ -1141,14 +1105,11 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": {
-        "主页url": "https://cddys.vip/",
+        "主页url": "https://cddys.me/",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-        "分类url": "https://cddys.vip//vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;a",
-        "跳转播放链接": "https://bfq2.cddys.vip/nimasile2/?url=+link_pre*url\":\"&&\"",
-        "二次跳转播放链接": "https://bfq2.cddys.vip/nimasile2/API.php;post;url=+\"url\"*\"&&\"+&time=+\"time\"*\"&&\"+&key=+\"key\"*\"&&\"",
+        "分类url": "https://cddys.me//vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html;;a",
         "线路数组": "<div class=\"module-tab-item tab-item&&</div",
-        "线路标题": "<span>&&</span",
-        "三次跳转播放链接": "\"url\"*\"&&\""
+        "线路标题": "<span>&&</span"
       }
     },    
     {
@@ -1272,26 +1233,6 @@
       "ext": "./json/阿里云盘网.json"
     },
     {
-      "key": "csp_豆豆飞",
-      "name": "📀豆豆飞┃阿里",
-      "type": 3,
-      "api": "csp_XYQHikerAL",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/豆豆飞.json"
-    },
-    {
-      "key": "csp_土拨鼠搜索",
-      "name": "📀土拨鼠┃阿里",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/土拨鼠搜索.json"
-    },
-    {
       "key": "dr_88看球",
       "name": "🥇球赛┃体育",
       "type": 3,
@@ -1305,7 +1246,7 @@
       "key": "csp_AList",
       "name": "🥇alist┃网盘",
       "type": 3,
-      "api": "csp_AList",
+      "api": "./lib/alist.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -1436,15 +1377,6 @@
             "url": "https://ghproxy.net/https://raw.githubusercontent.com/linfern-mou/linfern/main/iptv/yangchen.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "fty",
-      "type": 0,
-      "playerType": 1,
-      "url": "./live/fty.txt",
-      "ua": "okhttp/3.12.13",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   
