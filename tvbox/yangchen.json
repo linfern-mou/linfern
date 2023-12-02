@@ -74,16 +74,6 @@
       "ext": "./json/bttwo.json"
     },
     {
-      "key": "csp_91",
-      "name": "🥇91free┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/91free.json"
-    },
-    {
       "key": "素白白",
       "name": "🥇素白┃影视",
       "type": 3,
@@ -167,7 +157,8 @@
       "ext": {
         "分类url": "https://www.tcyy360.com/vod/show/by/hits/id/{cateId}/page/{catePg}.html",//https://www.lmm33.com///https://dm.qg50.com/
         "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-        "嗅探词": "m3u8#.mp4",
+        "嗅探词": "m3u8#.mp4#tos",
+        "过滤词": ",js#.php#.gif",
         "分类": "国产动漫$7#日本动漫$6#欧美动漫$8#国产动画电影$4#日本动画电影$3#欧美动画电影$5",
         "数组": "class=\"img-box cover-md&&</p>",
         "链接": "href=\"&&\"",
