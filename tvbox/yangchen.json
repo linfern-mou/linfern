@@ -24,15 +24,15 @@
       "filterable": 0,
       "ext": "./json/热播之家.json"
     },
-     {
-      "key": "csp_CZSPP",
-      "name": "🥇厂长┃直连",
+    {
+      "key": "厂长",
+      "name": "🥇厂长┃影视",
       "type": 3,
-      "api": "csp_Czsapp",
+      "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext":"https://www.czys.me"
+      "ext": "./json/厂长影视.json"
     },
     {
       "key": "csp_艾迪",
@@ -185,23 +185,15 @@
       "ext": "./json/JustLive.js"
     },
     {
-      "key": "厂长",
-      "name": "🥇厂长┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/厂长影视.json"
-    },
-    {
       "key": "耐看",
       "name": "🥇耐看┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
+      "playerType": "1",
       "quickSearch": 1,
-      "filterable": 0,
+      "timeout": 5000,
+      "filterable": 1,
       "ext": "./json/耐看影视.json"
     },
     {
@@ -1317,6 +1309,16 @@
       "name": "聚合1",
       "type": 3,
       "url": "Demo"
+    },
+    {
+      "name": "解析1",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jx/jx.php?url="
+    },
+    {
+      "name": "解析2",
+      "type": 0,
+      "url": "https://jx.nnxv.cn/tv.php?url="
     },
     {
       "name": "777",
