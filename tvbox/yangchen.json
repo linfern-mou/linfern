@@ -1317,8 +1317,8 @@
     },
     {
       "name": "解析2",
-      "type": 0,
-      "url": "https://jx.nnxv.cn/tv.php?url="
+      "type": 1,
+      "url": "https://z1.m1907.top/?jx="
     },
     {
       "name": "777",
@@ -1466,6 +1466,12 @@
         "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
+    {"hosts":["vip.ffzy","hd.ffzy","vip.lz","hd.lz",".cdnlz","bfzy"],
+     "name":"量子非凡",
+     "regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+"]},
+     {"hosts":["suonizy"],
+      "name":"索尼",
+      "regex":["15","15.2666","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]},
     {
       "name": "sn",
       "hosts": [
