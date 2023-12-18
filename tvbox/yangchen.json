@@ -1,7 +1,7 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/1205.jar",
+  "spider": "./jar/1218.jar",
   "sites": [
      {
       "key": "荐片",
