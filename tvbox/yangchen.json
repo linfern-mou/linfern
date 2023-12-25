@@ -68,6 +68,7 @@
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
+      "playerType": "1",
       "filterable": 1,
       "ext": "./json/bttwo.json"
     },

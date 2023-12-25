@@ -17,19 +17,10 @@
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
+      "playerType": "1",
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/bttwo.json"
-    },
-    {
-      "key": "csp_91",
-      "name": "🏆91free┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/91free.json"
     },
     {
       "key": "热播之家",
@@ -52,12 +43,38 @@
       "ext": "./json/达达龟.json"
     },
     {
+      "key": "黑料不打烊",
+      "name": "🥇黑料┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+      "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+       "分类url": "http://zztt72.com/category/{cateId}/{catePg}.html",
+       "数组": "video-item \"&&</a>",
+       "主页url": "http://zztt72.com",///https://hl06.co/
+       "标题": "class=\"title\"*>&&</div>[不包含:.]",
+       "图片": "onload=\"loadImg(this,'&&'",
+       "链接": "href=\"&&\"",
+       "播放列表": "class='dplayer'&&</div>",
+       "简介": "class=\"detail-title*daa&&</h1>",
+       "线路标题": "线路一+<p3>&&</66p>",
+       "播放标题": "第一集",
+       "副标题": "黑料网",
+       "直接播放": "1",
+       "播放链接": "video\":{\"url\":\"&&\"",
+       "分类": "热点吃瓜$7#今日黑料$6#反差女友$4#明星网红$1#独家猛料$9#校园论坛$2#禁播影视$14"
+      }
+    },
+    {
       "key": "xse",
-      "name": "🥇XSE27┃影视",
+      "name": "🥇XSE┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://xse27.cc/vodtype/{cateId}-{catePg}/",
+        "分类url": "https://xse32.cc/vodtype/{cateId}-{catePg}/",
         "嗅探词": "m3u8#.mp4",
         "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
         "分类": "国产传媒$25#麻豆传媒$33#网曝流出$26#皇家华人$38#主播系列$21#国产自拍$20#日韩AV$22#天美传媒$34#精东影业$35#果冻传媒$36#蜜桃传媒$37#星空传媒$39#其他传媒$40",
