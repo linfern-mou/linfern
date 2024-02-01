@@ -1,7 +1,7 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/0118.jar",
+  "spider": "./jar/0131.jar",
   "sites": [
      {
       "key": "荐片",
@@ -53,26 +53,6 @@
       }
     },
     {
-      "key": "csp_艾迪",
-      "name": "🏆爱迪┃APP",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://api123.adys.app/xgapp.php/v3/"
-    },
-    {
-      "key": "csp_996影视",
-      "name": "🥇996┃影视",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/996影视.json"
-    },
-    {
       "key": "玩偶",
       "name": "📀玩偶┃阿里",
       "type": 3,
@@ -113,6 +93,71 @@
       "filterable": 1,
       "playerType": "2",
       "ext": "./json/子子影视.json"
+    },
+    {
+      "key": "JustLive",
+      "name": "🥇JustLive┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "./json/JustLive.js"
+    },
+    {
+      "key": "csp_XYQHiker_好戏网",
+      "name": "🥇好戏┃影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/好戏网.json"
+    },{
+      "key": "胖虎",
+      "name": "🥇胖虎┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/胖虎影视.json"
+    },
+    {
+      "key": "在线之家",
+      "name": "🥇在线┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./json/在线之家.js"
+    },
+    {
+      "key": "csp_低端",
+      "name": "🥇低端┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/低端影视.js"
+    },
+    {
+      "key": "视觉",
+      "name": "🥇新视觉┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/新视觉影视.json"
+    },
+    {
+      "key": "csp_996影视",
+      "name": "🥇996┃影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/996影视.json"
     },
     {
       "key": "03影院",
@@ -237,15 +282,6 @@
       }
     },
     {
-      "key": "JustLive",
-      "name": "🥇JustLive┃直播",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./json/JustLive.js"
-    },
-    {
       "key": "耐看",
       "name": "🥇耐看┃影视",
       "type": 3,
@@ -289,16 +325,6 @@
         "搜索模式": "1",
         "搜索url": "https://www.jqqzx.cc/type/id-.html?wd={wd}"
       }
-    },
-    {
-      "key": "csp_XYQHiker_好戏网",
-      "name": "🥇好戏┃影视",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/好戏网.json"
     },
     {
       "key": "csp_XYQHiker_迷迷剧",
@@ -400,43 +426,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/北川影视.json"
-    },
-    {
-      "key": "胖虎",
-      "name": "🥇胖虎┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/胖虎影视.json"
-    },
-    {
-      "key": "在线之家",
-      "name": "🥇在线┃影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./json/在线之家.js"
-    },
-    {
-      "key": "csp_低端",
-      "name": "🥇低端┃影视",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/低端影视.js"
-    },
-    {
-      "key": "视觉",
-      "name": "🥇新视觉┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/新视觉影视.json"
     },
     {
       "key": "熊猫",
