@@ -2,13 +2,6 @@
   "vodPic": "https://s1.ax1x.com/2023/05/04/p9tgI81.png",
   "drives": [
         {
-        "name" : "🙋丫仙女",
-        "server" : "http://alist.xiaoya.pro",
-        "startPage" : "/",
-        "showAll" : false,
-        "search" : true
-    },
-        {
         "name" : "👍ECVE",
         "server" : "https://pan.ecve.cn"
         },
@@ -33,7 +26,7 @@
     },
    {
       "name": "💦讯维云盘",
-      "server": "https://pan.xwbeta.com"
+      "server": "https://clou.miskak.net"
    },
    {
       "name": "罗汉果",
