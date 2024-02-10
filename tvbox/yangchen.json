@@ -1,7 +1,7 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/0131.jar",
+  "spider": "./jar/0210.jar",
   "sites": [
      {
       "key": "荐片",
@@ -32,6 +32,48 @@
       "api": "./lib/drpy2.min.js",
       "ext": "./json/厂长.js"
     },
+    {
+      "key": "海外看",
+      "name": "🥇海外看┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://haiwaikan.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+      }
+    },
+    {
+      "key": "欧乐",
+      "name": "🥇欧乐┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://olevod.link/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$3#综艺$4"
+      }
+    },
+    {
+      "key": "酷亚",
+      "name": "🥇酷亚┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.kuyavod.com/vodshow/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "泥视频",
+      "name": "🥇泥视频┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.nivod6.tv/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },    
     {
       "key": "freeok备用",
       "name": "🥇freeok┃影视",
