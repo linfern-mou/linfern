@@ -44,7 +44,7 @@
     },
     {
       "key": "黑料不打烊",
-      "name": "🥇黑料┃影视",
+      "name": "🔞黑料┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -69,8 +69,60 @@
       }
     },
     {
+      "key": "ppp",
+      "name": "🔞PPP┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "直接播放": "1",
+        "嗅探词": "m3u8#.m3u8",
+        "数组": "<figure class=\"aspect-ratio\">&&</a",
+        "图片": "data-src=\"&&\"",
+        "标题": "alt=\"&&\"",
+        "链接": "href=\"&&\"",
+        "搜索url": "https://ppp.porn/search/{wd}/",
+        "搜索图片": "data-src=\"&&\"",
+        "搜索数组": "<figure class=\"aspect-ratio\">&&</a",
+        "分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;a",
+        "分类": "中国$china-av#日本$japan-producer#素人自拍$amateur#台湾$taiwan#野外露出$exhibitionists#无码$uncensored#主播$streamer"
+      }
+    },
+    {
+      "key": "玩偶姐姐",
+      "name": "🔞玩偶┃姐姐",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json1/玩偶姐姐.js"
+    },
+    {
+      "key": "朱古力",
+      "name": "🔞朱古力┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json1/朱古力.js"
+    },
+    {
+      "key": "banan",
+      "name": "🔞banan┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json1/banan.js"
+    },
+    {
       "key": "右手",
-      "name": "🥇右手┃影视",
+      "name": "🔞右手┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
@@ -81,25 +133,37 @@
       }
     },
     {
-      "key": "xse",
-      "name": "🥇XSE┃影视",
+      "key": "xvideos",
+      "name": "🔞xvideos┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://nnr24.cc/vodtype/{cateId}-{catePg}/",
-        "嗅探词": "m3u8#.mp4",
+        "分类url": "https://www.xvideos.com/?k={cateId}&p={catePg}",
+        "数组":"frame-block thumb-block&&/script></div>",
+        "图片":"data-src=\"&&\"",
+        "分类": "国产$国产#调教$Femdom-235#麻豆$麻豆#亚洲$Asian_Woman-32#自慰$Solo_and_Masturbation-33",
+        "直接播放":"1"
+      }
+    },
+    {
+      "key": "xse",
+      "name": "🔞牛牛热┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://nnr32.cc/vodtype/{cateId}-{catePg}/",
         "分类": "国产传媒$25#麻豆传媒$33#网曝流出$26#皇家华人$38#主播系列$21#国产自拍$20#日韩AV$22#天美传媒$34#精东影业$35#果冻传媒$36#蜜桃传媒$37#星空传媒$39#其他传媒$40",
         "搜索模式": "1",
         "数组": "class=\"video-pic loading\"&&</a>",
         "标题": "title=\"&&\"",
-        "图片": "original=\"&&\"",
+        "图片": "data-original=\"&&\"",
         "副标题": "note text-bg-r\">&&<",
         "直接播放":"1"
       }
     },
     {
       "key": "91md",
-      "name": "🥇91┃麻豆",
+      "name": "🔞91┃麻豆",
       "type": 1,
       "api": "https://91md.me/api.php/provide/vod",
       "searchable": 1,
@@ -107,8 +171,125 @@
       "filterable": 1
     },
     {
+      "key": "森林专场",
+      "name": "🔞森林┃资源",
+      "type": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+     },
+     {
+      "key": "玉兔专场",
+      "name": "🔞玉兔┃资源",
+      "type": 1,
+      "api": "https://apiyutu.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+      },
+      {
+      "key": "辣椒专场",
+      "name": "🔞辣椒┃资源",
+      "type": 1,
+      "api": "https://apilj.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+            "key": "资源A（精品）",
+            "name": "🔞精品┃资源",
+            "type": 1,
+            "api": "http://www.jingpinx.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源B(草莓)",
+            "name": "🔞草莓┃资源 ",
+            "type": 1,
+            "api": "https://www.cmzyz2.cc/Cmzyzapi.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        
+        {
+            "key": "资源C(黄瓜)",
+            "name": "🔞黄瓜┃资源",
+            "type": 1,
+            "api": "https://www.avre06.com/api.php/Prodao/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源E(甜蜜)",
+            "name": "🔞甜蜜┃资源",
+            "type": 1,
+            "api": "https://timizy10.cc/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源E(草榴)",
+            "name": "🔞草榴┃资源",
+            "type": 1,
+            "api": "https://www.caoliuzyw.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源G(开心果)",
+            "name": "🔞开心果┃资源",
+            "type": 0,
+            "api": "https://www.kxgav.com/api/xml.php ",
+            "searchable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "资源G(博民)",
+            "name": "🔞博民┃资源",
+            "type": 1,
+            "api": "https://www.bominzy.com/api.php/provide/vod/",//www.bominzy（1-9）.com
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源G(jkun)",
+            "name": "🔞jkun┃资源",
+            "type": 1,
+            "api": "https://www.jkunzyapi.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "资源H(饮水机)",
+            "name": "🔞饮水机┃资源",
+            "type": 0,
+            "api": "https://www.xrbsp.com/api/xml.php ",
+            "searchable": 1,
+            "changeable": 1
+        },
+    {
       "key": "色猫",
-      "name": "🥇色猫┃资源",
+      "name": "🔞色猫┃资源",
       "type": 0,
       "api": "https://caiji.semaozy.net/inc/api.php",
       "searchable": 1,
@@ -117,7 +298,7 @@
     },
     {
       "key": "丝袜",
-      "name": "🥇丝袜┃资源",
+      "name": "🔞丝袜┃资源",
       "type": 0,
       "api": "https://www.siwazyw.tv/api.php/provide/vod/at/xml/",
       "searchable": 1,
@@ -125,8 +306,17 @@
       "filterable": 0
     },
     {
+      "key": "zp128",
+      "name": "🔞鲨鱼┃资源",
+      "type": 0,
+      "api": "https://shayuapi.com/api.php/Seacms/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
       "key": "葡萄",
-      "name": "🥇葡萄┃资源",
+      "name": "🔞葡萄┃资源",
       "type": 1,
       "api": "https://caiji.putaozyw.net/inc/apijson_vod.php",
       "quickSearch": 1,
@@ -135,7 +325,7 @@
     },
     {
       "key": "无极磁力",
-      "name": "🥈无极┃磁力",
+      "name": "🔞无极┃磁力",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -146,7 +336,7 @@
     },
     {
       "key": "missav",
-      "name": "🥈missav┃资源",
+      "name": "🔞missav┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -156,7 +346,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉资源",
-      "name": "🥈香蕉┃资源",
+      "name": "🔞香蕉┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -166,7 +356,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉超清",
-      "name": "🥈香蕉┃超清",
+      "name": "🔞香蕉┃超清",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -176,7 +366,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉国产",
-      "name": "🥈香蕉┃国产",
+      "name": "🔞香蕉┃国产",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -186,7 +376,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉久久热",
-      "name": "🥈香蕉┃久久热",
+      "name": "🔞香蕉┃久久热",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -196,7 +386,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉废柴",
-      "name": "🥈香蕉┃废柴",
+      "name": "🔞香蕉┃废柴",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -206,7 +396,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉搜索",
-      "name": "🥈香蕉┃搜索",
+      "name": "🔞香蕉┃搜索",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -216,7 +406,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉直播",
-      "name": "🥈香蕉┃直播",
+      "name": "🔞香蕉┃直播",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -226,7 +416,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉AV解说",
-      "name": "🥈香蕉┃解说",
+      "name": "🔞香蕉┃解说",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -236,7 +426,7 @@
     },
     {
       "key": "csp_XBPQ_黄仓库",
-      "name": "🥈黄仓库┃资源",
+      "name": "🔞黄仓库┃资源",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -246,7 +436,7 @@
     },
     {
       "key": "csp_XBPQ_麻豆映画",
-      "name": "🥈麻豆┃映画",
+      "name": "🔞麻豆┃映画",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -256,7 +446,7 @@
     },
     {
       "key": "csp_XBPQ_香蕉",
-      "name": "🥈香蕉┃资源",
+      "name": "🔞香蕉┃资源",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -266,7 +456,7 @@
     },
     {
       "key": "csp_XBPQ_GAOAA",
-      "name": "🥈GAOAA",
+      "name": "🔞GAOAA┃资源",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -276,7 +466,7 @@
     },  
     {
       "key": "csp_XBPQ_色花堂",
-      "name": "🥈色花堂",
+      "name": "🔞色花堂┃资源",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -286,7 +476,7 @@
     },
     {
       "key": "csp_XBPQ_天天直播",
-      "name": "🥈天天直播",
+      "name": "🔞天天直播",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -296,7 +486,7 @@
     },
     {
       "key": "csp_XBPQ_天天综合",
-      "name": "🥈天天综合",
+      "name": "🔞天天┃综合",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -306,7 +496,7 @@
     },
     {
       "key": "csp_xf_18av",
-      "name": "🥈18av[墙]",
+      "name": "🔞18av┃资源",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
@@ -317,7 +507,7 @@
    
     {
       "key": "博天堂",
-      "name": "🥇博天堂",
+      "name": "🔞博天堂┃资源",
       "type": 0,
       "api": "http://bttcjz.com/inc/sapi.php",
       "searchable": 1,
@@ -326,7 +516,7 @@
     },
     {
       "key": "JAV名优",
-      "name": "🥇JAV名优",
+      "name": "🔞JAV┃资源",
       "type": 0,
       "api": "http://mygzycj.com/api.php?ac=list",
       "searchable": 1,
@@ -335,7 +525,7 @@
     },
     {
       "key": "环亚",
-      "name": "🥇环亚",
+      "name": "🔞环亚┃资源",
       "type": 0,
       "api": "http://wmcj8.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
@@ -344,7 +534,7 @@
     },
     {
       "key": "美少女",
-      "name": "🥇美少女",
+      "name": "🔞美少女┃资源",
       "type": 0,
       "api": "https://www.msnii.com/api/xml.php",
       "searchable": 1,
@@ -352,17 +542,8 @@
       "filterable": 1
     },
     {
-      "key": "淫水机",
-      "name": "🥇淫水机",
-      "type": 0,
-      "api": "https://www.xrbsp.com/api/xml.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "香奶儿",
-      "name": "🥇香奶儿",
+      "name": "🔞香奶儿┃资源",
       "type": 0,
       "api": "https://www.gdlsp.com/api/xml.php",
       "searchable": 1,
@@ -371,7 +552,7 @@
     },
     {
       "key": "白嫖",
-      "name": "🥇白嫖",
+      "name": "🔞白嫖┃资源",
       "type": 0,
       "api": "https://www.kxgav.com/api/xml.php",
       "searchable": 1,
@@ -380,7 +561,7 @@
     },
     {
       "key": "小湿妹",
-      "name": "🥇小湿妹",
+      "name": "🔞小湿妹┃资源",
       "type": 0,
       "api": "https://www.afasu.com/api/xml.php",
       "searchable": 1,
@@ -389,7 +570,7 @@
     },
     {
       "key": "黄A",
-      "name": "🥇黄A",
+      "name": "🔞黄A┃资源",
       "type": 0,
       "api": "https://www.pgxdy.com/api/xml.php",
       "searchable": 1,
@@ -398,7 +579,7 @@
     },
     {
       "key": "哥妹",
-      "name": "🥇哥妹",
+      "name": "🔞哥妹┃资源",
       "type": 0,
       "api": "http://www.ggmmzy.com:9999/inc/xml",
       "searchable": 0,
@@ -407,7 +588,7 @@
     },
     {
       "key": "老鸭",
-      "name": "🥇老鸭",
+      "name": "🔞老鸭┃资源",
       "type": 0,
       "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
       "playUrl": "https://player.77lehuo.com/aliplayer/?url=",
@@ -417,7 +598,7 @@
     },
     {
       "key": "大地",
-      "name": "🥇大地",
+      "name": "🔞大地┃资源",
       "type": 0,
       "api": "https://dadiapi.com/api.php/provide/vod/at/xml",
       "quickSearch": 1,
@@ -426,7 +607,7 @@
     },
     {
       "key": "狼少年",
-      "name": "🥇狼少年",
+      "name": "🔞狼少年┃资源",
       "type": 0,
       "api": "http://cjmygzy.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
@@ -435,7 +616,7 @@
     },
     {
       "key": "玖玖",
-      "name": "🥇玖玖",
+      "name": "🔞玖玖┃资源",
       "type": 0,
       "api": "http://99zywcj.com/inc/sapi.php?ac=videolist",
       "searchable": 1,
@@ -444,7 +625,7 @@
     },
     {
       "key": "皇冠",
-      "name": "🥇皇冠",
+      "name": "🔞皇冠┃资源",
       "type": 1,
       "api": "https://hghhh.com/api.php/provide/vod/",
       "searchable": 0,
@@ -453,7 +634,7 @@
     },
     {
       "key": "KK写真",
-      "name": "🥇KK写真",
+      "name": "🔞KK写真┃资源",
       "type": 1,
       "api": "https://kkzy.me/api.php/provide/vod/",
       "searchable": 1,
@@ -462,7 +643,7 @@
     },
     {
       "key": "色南国",
-      "name": "🥇色南国",
+      "name": "🔞色南国┃资源",
       "type": 1,
       "api": "https://api.sexnguon.com/api.php/provide/vod/",
       "searchable": 0,
@@ -471,7 +652,7 @@
     },
     {
       "key": "佳丽",
-      "name": "🥇佳丽",
+      "name": "🔞佳丽┃资源",
       "type": 1,
       "api": "https://jializyzapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -480,7 +661,7 @@
     },
     {
       "key": "色窝",
-      "name": "🥇色窝",
+      "name": "🔞色窝┃资源",
       "type": 1,
       "api": "https://sewozyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -489,7 +670,7 @@
     },
     {
       "key": "鲨鱼",
-      "name": "🥇鲨鱼",
+      "name": "🔞鲨鱼┃资源",
       "type": 1,
       "api": "https://shayuapi.com/api.php/provide/vod/",//shayuzy1-9.com
       "searchable": 1,
@@ -498,7 +679,7 @@
     },
     {
       "key": "抖阴",
-      "name": "🥇抖阴",
+      "name": "🔞抖阴┃资源",
       "type": 1,
       "api": "https://www.888dav.com/api.php/provide/vod/",
       "quickSearch": 1,
