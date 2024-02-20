@@ -33,6 +33,17 @@
       "ext": "./json/厂长.js"
     },
     {
+      "key": "tvdy",
+      "name": "🥇电影天堂┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.tvdy.xyz/search.php?page={catePg}&searchtype=5&order=hit&tid={cateId}&area={area}&year={year}",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3#写真$31#伦理$5#纪录片$34"
+      }
+    },
+    {
       "key": "飞兔",
       "name": "🥇飞兔┃影视",
       "type": 3,
@@ -97,14 +108,13 @@
       }
     },    
     {
-      "key": "freeok备用",
-      "name": "🥇freeok┃影视",
+      "key": "Freeok",
+      "name": "🥇Freeok┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "playerType": "2",
       "ext": {
         "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
+        "分类": "电影&剧集&动漫&综艺&短剧&少儿",
         "分类值": "1&2&3&4&12&5",
         "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
         "副标题": "<div class=\"module-item-note\">&&</div>",
@@ -1190,16 +1200,6 @@
       "ext": "./json/蚂蚁影院.json"
     },
     {
-      "key": "freeok",
-      "name": "🥇Freeok┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext":"./json/freeok.json"
-    },
-    {
       "key": "兔兔",
       "name": "🥇追剧兔┃影视",
       "type": 3,
@@ -1393,7 +1393,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./live/alist.json"
+      "ext": "./json/alist.json"
     },
     {
       "key": "益智",

@@ -32,6 +32,17 @@
       "filterable": 0,
       "ext": "./json/热播之家.json"
     },
+    {
+      "key": "子子",
+      "name": "🏆子子┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": "2",
+      "ext": "./json/子子影视.json"
+    },
       {
       "key": "达达龟",
       "name": "🏆达达龟┃影视",
@@ -85,6 +96,18 @@
         "搜索数组": "<figure class=\"aspect-ratio\">&&</a",
         "分类url": "https://ppp.porn/categories/{cateId}/{catePg}/;;a",
         "分类": "中国$china-av#日本$japan-producer#素人自拍$amateur#台湾$taiwan#野外露出$exhibitionists#无码$uncensored#主播$streamer"
+      }
+    },
+    {
+      "key": "uuge1",
+      "name": "🔞悠悠阁┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "直接播放": "0",
+        "嗅探词": "m3u8#.m3u8",
+        "分类url": "https://www.uuge1.com/vodshow/{cateId}--{by}------{catePg}---.html",
+        "分类": "国产$guochan#亚洲$yazhou#欧美$oumei#动漫$dongman#伦理$lunli"
       }
     },
     {
