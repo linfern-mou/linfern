@@ -1,7 +1,7 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/0118.jar",
+  "spider": "./jar/0210.jar",
   "sites": [
      {
       "key": "荐片",
@@ -33,34 +33,14 @@
       "ext": "./json/厂长.js"
     },
     {
-      "key": "freeok备用",
-      "name": "🥇freeok┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": "2",
-      "ext": {
-        "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "FREE电影&FREE剧集&FREE动漫&FREE综艺&FREE短剧&FREE少儿",
-        "分类值": "1&2&3&4&12&5",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-        "副标题": "<div class=\"module-item-note\">&&</div>",
-        "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-        "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-        "线路标题": "<span>&&</small>",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "简介": "<p>&&</p>"
-      }
-    },
-    {
-      "key": "csp_996影视",
-      "name": "🥇996┃影视",
+      "key": "疯狗",
+      "name": "🥇疯狗┃影视",
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/996影视.json"
+      "ext": "./json/疯狗影视.json"
     },
     {
       "key": "玩偶",
@@ -105,47 +85,6 @@
       "ext": "./json/子子影视.json"
     },
     {
-      "key": "03影院",
-      "name": "🥇零三┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "主页url": "https://www.03yy.co",
-        "数组": "<div class=\"pic-content pic-width-2\">&&</div",
-        "副标题": "<span>&&</span>",
-        "嗅探词": "mp4#m3u8#adsmind.ugdtimg.com",
-        "简介": "<p&&</p>",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "搜索模式": "1",
-        "搜索url": "https://www.03yy.co/search.php?searchword={wd}",
-        "搜索副标题": "<span>&&</span>",
-        "搜索链接": "href=\"&&\"",
-        "线路二次截取": "<ul id=\"playlist\">&&</ul",
-        "线路数组": " <li&&li>",
-        "线路标题": ">&&<",
-        "分类url": "https://www.03yy.co/search.php?page={catePg}&searchtype=5&order={by}&tid={cateId}&area={area}&year={year}",
-        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-      }
-    },
-    {
-      "key": "七味",
-      "name": "🥇七味┃磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",//https://www.qmp4.com/https://www.qn63.com/
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-       "嗅探词": "m3u8#.mp4",
-       "分类": "电影$1#剧集$2#动漫$4#综艺$3",
-       "播放数组": "class=\"gdt content&&</ul>",
-       "播放列表": "down-list3&&</li>",
-       "播放链接": "href=\"&&\"",
-       "线路数组": "class=\"title&&</li>[不包含:720#原盘#未知#百度#夸克#阿里]",
-       "线路标题": ">&&<span"
-      }
-    },
-    {
       "key": "JustLive",
       "name": "🥇JustLive┃直播",
       "type": 3,
@@ -153,6 +92,155 @@
       "filterable": 1,
       "changeable": 1,
       "ext": "./json/JustLive.js"
+    },
+    {
+      "key": "csp_XYQHiker_好戏网",
+      "name": "🥇好戏┃影视",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/好戏网.json"
+    },{
+      "key": "胖虎",
+      "name": "🥇胖虎┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/胖虎影视.json"
+    },
+    {
+      "key": "在线之家",
+      "name": "🥇在线┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./json/在线之家.js"
+    },
+    {
+      "key": "csp_低端",
+      "name": "🥇低端┃影视",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/低端影视.js"
+    },
+    {
+      "key": "视觉",
+      "name": "🥇新视觉┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/新视觉影视.json"
+    },
+        {
+      "key": "飞兔",
+      "name": "🥇飞兔┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.feitu.tv/filter/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+      }
+    },
+    {
+      "key": "海外看",
+      "name": "🥇海外看┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://haiwaikan.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+      }
+    },
+    {
+      "key": "欧乐",
+      "name": "🥇欧乐┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://olevod.link/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$3#综艺$4"
+      }
+    },
+    {
+      "key": "酷亚",
+      "name": "🥇酷亚┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.kuyavod.com/vodshow/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "泥视频",
+      "name": "🥇泥视频┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.nivod6.tv/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },    
+    {
+      "key": "Freeok",
+      "name": "🥇Freeok┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影&剧集&动漫&综艺&短剧&少儿",
+        "分类值": "1&2&3&4&12&5",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        "副标题": "<div class=\"module-item-note\">&&</div>",
+        "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+        "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
+        "线路标题": "<span>&&</small>",
+        "导演": "导演：&&</div>",
+        "主演": "主演：&&</div>",
+        "简介": "<p>&&</p>"
+      }
+    },
+    {
+      "key": "爱看剧",
+      "name": "🥇爱看剧┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.ikanju.vip/index.php/vod/show/area/{area}/by/hits/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "嗅探词": "m3u8#.mp4",
+       "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$23",
+       "线路数组": "data-dropdown-value&&</div>",
+       "线路标题": "🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸"
+      }
+    },
+    {
+      "key": "我爱跟剧",
+      "name": "🥇跟剧┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.52gen.vip/vodshow/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html;;x",//防丢失：fabu.timiys.vip
+        "嗅探词": "m3u8#.mp4",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+        "分类": "电影$dianying#剧集$lianxuju#动漫$dongman#综艺$zongyi",
+        "副标题": "class=\"module-item-text\">&&</div>",
+        "搜索模式": "1",
+        "线路数组": "data-dropdown-value&&</div>",
+        "线路标题": "🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸",
+        "搜索url": "https://www.52gen.vip/vodsearch/{wd}----------{pg}---.html"
+      }
     },
     {
       "key": "耐看",
@@ -176,26 +264,6 @@
       "filterable": 1,
       "playerType": "1",
       "ext": "./json/TVB云播.json"
-    },
-    {
-      "key": "csp_XYQHiker_好戏网",
-      "name": "🥇好戏┃影视",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/好戏网.json"
-    },
-    {
-      "key": "csp_007",
-      "name": "🥇007┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/007影视.json"
     },
     {
       "key": "达达龟",
@@ -247,42 +315,44 @@
       "filterable": 1,
       "ext": "./json/北川影视.json"
     },
+   {
+      "key": "360影视",
+      "name": "🥇360┃弹幕",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "./json/360影视.js"
+    },
     {
-      "key": "胖虎",
-      "name": "🥇胖虎┃影视",
+      "key": "动漫巴士",
+      "name": "🥇动漫┃巴士",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "./json/胖虎影视.json"
+      "ext": "./json/动漫巴士.json"
     },
     {
-      "key": "在线之家",
-      "name": "🥇在线┃影视",
+      "key": "动漫岛",
+      "name": "🥇动漫岛┃动漫",
       "type": 3,
       "api": "./lib/drpy2.min.js",
-      "ext": "./json/在线之家.js"
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/动漫岛.js"
     },
     {
-      "key": "csp_低端",
-      "name": "🥇低端┃影视",
+      "key": "AGE",
+      "name": "🥇AGE┃动漫",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/低端影视.js"
-    },
-    {
-      "key": "视觉",
-      "name": "🥇新视觉┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/新视觉影视.json"
+      "ext": "./json/AGE动漫.js"
     },
     {
             "key": "乐视资源",
@@ -412,6 +482,36 @@
       ]
     },
     {
+            "key": "新浪",
+            "name": "🏆新浪┃采集",
+            "type": 1,
+            "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "大陆剧",
+                "动漫",
+                "综艺",
+                "纪录片",
+                "动作片",
+                "爱情片",
+                "科幻片",
+                "战争片",
+                "剧情片",
+                "恐怖片",
+                "喜剧片",
+                "港澳剧",
+                "台湾剧",
+                "欧美剧",
+                "动漫电影",
+                "韩剧",
+                "日剧",
+                "泰剧",
+                "体育"
+            ]
+        },
+    {
       "key": "快看资源",
       "name": "🏆快看┃采集",
       "type": 1,
@@ -486,26 +586,6 @@
       "ext": "./json/voflix.json"
     },
     {
-      "key": "蛋蛋",
-      "name": "🥇蛋蛋剧┃影视",//https://www.dandanju.vip/
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "分类url":"https://www.dandanju.cc/show/{cateId}-{area}--{class}-----{catePg}---{year}.html",  
-        "数组": "ewave-vodlist__thumb lazyload&&</div>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "跳转播放链接": "\"url\"*\"&&\"",
-        "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-        "倒序播放": "0",   
-        "分类":"电影$1#电视剧$2#综艺$3#动漫$4"
-    }
-    }, 
-    {
       "key": "csp_电影港",
       "name": "🧲电影港┃磁力",
       "type": 3,
@@ -514,6 +594,35 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/电影港.json"
+    },
+    {
+      "key": "csp_XYQHiker_哔嘀影视",
+      "name": "🧲哔嘀影视┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/哔嘀影视.json"
+    },
+    {
+      "key": "csp_6v磁力",
+      "name": "🧲新版6v┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/6V磁力.js"
+    },{
+      "key": "csp_BT天堂",
+      "name": "🧲BT天堂┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/BT天堂.json"
     },
     {
       "key": "csp_4KHDR",
@@ -526,14 +635,21 @@
       "ext": "./json/4KHDR.json"
     },
     {
-      "key": "csp_BT天堂",
-      "name": "🧲BT天堂┃磁力",
+      "key": "七味",
+      "name": "🧲七味┃磁力",
       "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/BT天堂.json"
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",//https://www.qmp4.com/https://www.qn63.com/
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "嗅探词": "m3u8#.mp4",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3",
+       "播放数组": "class=\"gdt content&&</ul>",
+       "播放列表": "down-list3&&</li>",
+       "播放链接": "href=\"&&\"",
+       "线路数组": "class=\"title&&</li>[不包含:720#原盘#未知#百度#夸克#阿里]",
+       "线路标题": ">&&<span"
+      }
     },
     {
       "key": "磁力熊",
@@ -581,15 +697,6 @@
       "filterable": 1
     },
     {
-      "key": "csp_Xunlei8",
-      "name": "🧲迅雷吧┃磁力",
-      "type": 3,
-      "api": "csp_Xunlei8",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "高清MP4",
       "name": "🧲高清MP4┃磁力",
       "type": 3,
@@ -598,16 +705,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/高清MP4.json"
-    },
-    {
-      "key": "csp_XYQHiker_哔嘀影视",
-      "name": "🧲哔嘀影视┃磁力",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/哔嘀影视.json"
     },
     {
       "key": "csp_蓝光网",
@@ -672,35 +769,6 @@
       }
     },
     {
-      "key": "csp_6v磁力",
-      "name": "🧲新版6v┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/6V磁力.js"
-    },
-    {
-      "key": "258",
-      "name": "🧲258┃磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {      
-       "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
-       "分类url":"https://258.tv/film/{cateId}/{catePg}[firstPage=https://258.tv/film/{cateId}/]",    
-       "线路数组": "class=\"module-tab-item tab-item&&</div>",
-       "线路标题": "阳尘磁力+hy&&jjj",
-       "播放数组": "class=\"element element-joomlamodule\"></div>&&剧情",
-       "播放标题": ">&&<",
-       "播放列表": "<a&&/a>",
-       "分类":"720P/1080P蓝光电影$720p-1080p#蓝光电影$Bluray#3D电影$3d-blu-ray#蓝光原盘$blu-raydisc"      
-    }
-    },
-    {
       "key": "csp_极影网",
       "name": "🧲极影网┃磁力",
       "type": 3,
@@ -730,7 +798,20 @@
     }
      },
     {
-      "key": "豆豆",
+      "key": "熊猫",
+      "name": "🥇熊猫┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {      
+       "分类url":"https://xmvod520.com/index.php/vod/show/by/hits/id/{cateId}/page/{catePg}/year/{year}.html",      
+       "分类":"电影$52#国产剧$70#电视剧$69#综艺$77#动漫$75"
+    }
+    },
+    {
+      "key": "豆瓣",
       "name": "🥇豆瓣┃推荐",
       "type": 3,
       "api": "./lib/drpy2.min.js",
@@ -738,6 +819,46 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "./json/drpy.js"
+    },
+    {
+      "key": "蚂蚁",
+      "name": "🥇蚂蚁┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/蚂蚁影院.json"
+    },
+    {
+      "key": "兔兔",
+      "name": "🥇追剧兔┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
+        "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+        "分类url": "https://www.zjtu.cc/vodshow-{cateId}/area/{area}/page/{catePg}/year/{year}/",
+        "图片代理": "1",
+        "标题": "title=\"&&\"[不包含:川内相亲]",
+        "嗅探词": ".m3u8#aliyundrive.net#.mp4",
+        "图片": "data-original=\"&&\"",
+        "链接": "href=\"&&\"",
+        "副标题": "pack-prb hidden\">&&</span",
+        "跳转播放链接": "https://www.zjtu.cc/addons/dp/player/dp.php?key=0&from=+\"from\":\"&&\"+&id=+\"id\":\"&&\"+&api=&url=+vod_class*url\":\"&&\"",
+        "二次跳转播放链接": "\"url\"*\"&&\"",
+        "搜索url": "https://www.cupfox.app/s/{wd}",
+        "搜索模式": "1",
+        "搜索二次截取": "type=\"application/json\">&&</script>",
+        "搜索数组": "{\"te&&}[包含:追剧兔]",
+        "搜索图片": "https://www.sstv.pw/template/TOPIC/assets/img/favicon.ico",
+        "搜索标题": "xt\":\"&&\"",
+        "搜索副标题": "\"website\":\"&&\"",
+        "搜索链接": "\"url\":\"&&\""
+      }
     },
     {
       "key": "臭蛋",
@@ -886,6 +1007,16 @@
       "ext": "./json/六月听书.json"
     },
     {
+      "key": "dr_88看球",
+      "name": "🥇球赛┃体育",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./json/88看球.js"
+    },
+    {
       "key": "csp_AList",
       "name": "🥇alist┃网盘",
       "type": 3,
@@ -893,7 +1024,34 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./live/alist.json"
+      "ext": "./json/alist.json"
+    },
+    {
+      "key": "益智",
+      "name": "🥇益智┃少儿",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./json/益智动画.json"
+    },
+    {
+      "key": "童趣",
+      "name": "🥇童趣┃少儿",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./json/童趣.js"
+    },
+    {
+      "key": "兔小贝",
+      "name": "🥇兔小贝┃少儿",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./json/兔小贝.js"
     },
     {
       "key": "push_agent",
