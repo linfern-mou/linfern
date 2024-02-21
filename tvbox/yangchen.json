@@ -267,23 +267,6 @@
       "ext": "./json/阿布影院.js"
     },
     {
-      "key": "七味",
-      "name": "🥇七味┃磁力",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",//https://www.qmp4.com/https://www.qn63.com/
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-       "嗅探词": "m3u8#.mp4",
-       "分类": "电影$1#剧集$2#动漫$4#综艺$3",
-       "播放数组": "class=\"gdt content&&</ul>",
-       "播放列表": "down-list3&&</li>",
-       "播放链接": "href=\"&&\"",
-       "线路数组": "class=\"title&&</li>[不包含:720#原盘#未知#百度#夸克#阿里]",
-       "线路标题": ">&&<span"
-      }
-    },
-    {
       "key": "爱看剧",
       "name": "🥇爱看剧┃影视",
       "type": 3,
@@ -295,22 +278,6 @@
        "分类": "电影$1#剧集$2#动漫$3#综艺$4#短剧$23",
        "线路数组": "data-dropdown-value&&</div>",
        "线路标题": "🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸"
-      }
-    },
-    {
-      "key": "我爱影视",
-      "name": "🥇我爱┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://100.mvsky.xyz/vodshow/{cateId}-{area}-hits-{class}-----{catePg}---{year}.html",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-        "嗅探词": "m3u8#.mp4",
-        "分类": "电影$31#剧集$32#动漫$33#综艺$34#纪录片$36",
-       "线路数组": "data-dropdown-value&&</div>",
-       "线路标题": "🌸+<span>&&</small>[替换:</span><small>>>更新至]+集🌸",
-        "搜索模式": "1",
-        "搜索url": "https://100.mvsky.xyz/vodsearch/{wd}----------{pg}---.html"
       }
     },
     {
@@ -379,13 +346,6 @@
       "ext": "./json/TVB云播.json"
     },
     {
-      "key": "小镇",
-      "name": "🥇小镇┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./json/淘剧.json"
-    },
-    {
       "key": "看看剧",
       "name": "🥇剧圈圈┃影视",
       "type": 3,
@@ -440,16 +400,6 @@
         "分类url": "https://www.tuhao.tv/vsh/{cateId}-{area}-------{catePg}---{year}.html",
         "分类": "电影$1#剧集$2#动漫$4#纪录片$3#综艺$5#B站$50#电影解说$57#体育$56"
       }
-    },
-    {
-      "key": "csp_007",
-      "name": "🥇007┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/007影视.json"
     },
     {
       "key": "达达龟",
@@ -934,6 +884,35 @@
       "ext": "./json/电影港.json"
     },
     {
+      "key": "csp_XYQHiker_哔嘀影视",
+      "name": "🧲哔嘀影视┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/哔嘀影视.json"
+    },
+    {
+      "key": "csp_6v磁力",
+      "name": "🧲新版6v┃磁力",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json/6V磁力.js"
+    },{
+      "key": "csp_BT天堂",
+      "name": "🧲BT天堂┃磁力",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/BT天堂.json"
+    },
+    {
       "key": "csp_4KHDR",
       "name": "🧲4KHDR┃磁力",
       "type": 3,
@@ -944,14 +923,21 @@
       "ext": "./json/4KHDR.json"
     },
     {
-      "key": "csp_BT天堂",
-      "name": "🧲BT天堂┃磁力",
+      "key": "七味",
+      "name": "🥇七味┃磁力",
       "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/BT天堂.json"
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.pkmp4.xyz/ms/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",//https://www.qmp4.com/https://www.qn63.com/
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "嗅探词": "m3u8#.mp4",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3",
+       "播放数组": "class=\"gdt content&&</ul>",
+       "播放列表": "down-list3&&</li>",
+       "播放链接": "href=\"&&\"",
+       "线路数组": "class=\"title&&</li>[不包含:720#原盘#未知#百度#夸克#阿里]",
+       "线路标题": ">&&<span"
+      }
     },
     {
       "key": "磁力熊",
@@ -1018,16 +1004,6 @@
       "ext": "./json/高清MP4.json"
     },
     {
-      "key": "csp_XYQHiker_哔嘀影视",
-      "name": "🧲哔嘀影视┃磁力",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/哔嘀影视.json"
-    },
-    {
       "key": "csp_蓝光网",
       "name": "🧲蓝光网┃磁力",
       "type": 3,
@@ -1088,16 +1064,6 @@
         "主演": "主演：&&</p>",
         "简介": "<p class=\"b1f40f7888\">&&</h2>"
       }
-    },
-    {
-      "key": "csp_6v磁力",
-      "name": "🧲新版6v┃磁力",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json/6V磁力.js"
     },
     {
       "key": "258",

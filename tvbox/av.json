@@ -111,6 +111,16 @@
       }
     },
     {
+      "key": "155专场",
+      "name": "🔞155┃采集",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod/",
+      "playUrl": "",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+     },
+    {
       "key": "玩偶姐姐",
       "name": "🔞玩偶┃姐姐",
       "type": 3,
