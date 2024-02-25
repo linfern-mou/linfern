@@ -1,5 +1,5 @@
 {
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "wallpaper": "./pic/1.png",
   "warningText": "接口免费提供,仅供测试",
   "spider": "./jar/0210.jar",
   "sites": [
@@ -191,6 +191,18 @@
       "api": "csp_XBPQ",
       "ext": {
         "分类url": "https://www.kuyavod.com/vodshow/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "迅雷720",
+      "name": "🥇迅雷天堂┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://mip.xl720.com/category/{cateId}/page/{catePg}",
+        "分类": "电视剧$dianshiju#动作片$dongzuopian#科幻片$kehuanpian#恐怖片$kongbupian",
+        "数组": "class=\"entry-thumb lazyload&&</div>",
         "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
       }
     },
@@ -648,6 +660,17 @@
                 "海外动漫"
             ]
         },
+        {
+      "key": "海外看采集",
+      "name": "🏆海外看┃采集",
+      "type": 1,
+      "api": "http://api.haiwaikan.com/v1/vod?ac=list",
+      "playUrl": "https://dp.haiwaikan.com/index.html?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+      },
     {
       "key": "49zy",
       "name": "🏆四九┃采集",

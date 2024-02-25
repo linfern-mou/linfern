@@ -111,6 +111,24 @@
       }
     },
     {
+      "key": "乐开花",
+      "name": "🔞乐开花┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "首页": "偷拍自拍$20",
+        "直接播放": "1",
+        "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+        "嗅探词": "m3u8#.m3u8",//发布页https://gaw.lkhsi.com/a/
+        "分类url": "https://www.lkhsp2.christmas/cn/home/web/index.php/{cateId}/page/{catePg}.html",
+        "分类": "总榜$label/hot#偷拍自拍$vod/type/id/20#人妻熟女$vod/type/id/21#强奸乱伦$vod/type/id/22#制服丝袜$vod/type/id/23#国产精品$vod/type/id/27#日韩情色$vod/type/id/28",
+        "数组": "<dt>&&</dt>",
+        "图片": "src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "链接": "href=\"&&\""
+      }
+    },
+    {
       "key": "155专场",
       "name": "🔞155┃采集",
       "type": 1,
@@ -203,6 +221,16 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+            "key": "奥斯卡",
+            "name": "🔞奥斯卡┃采集",
+            "type": 1,
+            "api": "https://aosikazy.com/api.php/provide/vod/",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
     {
       "key": "森林专场",
       "name": "🔞森林┃资源",
