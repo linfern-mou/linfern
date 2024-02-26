@@ -1,5 +1,5 @@
 {
-  "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+  "wallpaper": "./pic/2.png",
   "warningText": "接口免费提供,仅供测试",
   "spider": "./jar/0210.jar",
   "sites": [
@@ -38,6 +38,7 @@
       "type": 3,
       "api": "csp_XYQHiker",
       "searchable": 1,
+      "playerType": "1",
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/疯狗影视.json"
