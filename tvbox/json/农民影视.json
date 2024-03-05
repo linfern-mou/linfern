@@ -1,8 +1,8 @@
-//https://m.xiangdao.me/https://v.emsdn.cn/https://www.nmdvd.com/
+//https://v.nmvod.cn//https://v.emsdn.cn/https://www.nmdvd.com/
  
   {
     "站名":"农民影视",
-    "主页url":"https://m.xiangdao.me/",
+    "主页url":"https://v.nmvod.cn//",
     "简介":"+简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介：&&</p>",
     "导演":"导演:&&</div>",
     "主演":"主演:&&</div>",
@@ -27,7 +27,7 @@
     "播放列表":"<a&&/a>",
     "跳转播放链接": "\"url\"*\"&&\"",
     "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-    "分类url":"https://m.xiangdao.me/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html;;akv",
+    "分类url":"https://v.nmvod.cn//vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class-0-year-{year}-letter--area-{area}-lang-.html;;akv",
     "分类":"电影$1#电视剧$2#综艺$3#动漫$4",
     "筛选":{
     "1":[
@@ -66,6 +66,7 @@
     },
     {"key":"year","name":"时间","value":[
     {"n":"全部时间","v":""},
+    {"n":"2024","v":"2024"},
     {"n":"2023","v":"2023"},
     {"n":"2022","v":"2022"},
     {"n":"2021","v":"2021"},
