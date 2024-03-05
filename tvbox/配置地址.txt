@@ -7,3 +7,9 @@ clan://localhost/tvbox/阳尘/yangchen.json
 
 clan://localhost/tvbox/阳尘/av.json
 
+
+
+
+
+clan://localhost/tvbox/阳尘/阳尘.json
+

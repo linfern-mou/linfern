@@ -15,6 +15,31 @@
       "ext": "./json/荐片.js"
     },
     {
+            "key": "聚短视频",
+            "name": "📽聚短┃视频",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./json/短视频.json",
+            "searchable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "timeout": 10
+        },
+    {
+            "key": "爱看Bot弹幕版",
+            "name": "⛅爱看Bot|弹幕",
+            "type": 3,
+            "api": "csp_Ikanbot",
+            "searchable": 1,
+            "jar":"./jar/ok.jar",
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "danmu": true
+            },
+            "timeout": 10
+        },
+    {
       "key": "热播库",
       "name": "🥇热播┃影视",
       "type": 3,
@@ -141,14 +166,24 @@
       }
     },
     {
-      "key": "飞兔",
-      "name": "🥇飞兔┃影视",
+      "key": "欧乐",
+      "name": "🥇欧乐┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://www.feitu.tv/filter/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "分类url": "https://olevod.link/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
         "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-       "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+       "分类": "电影$1#剧集$2#动漫$3#综艺$4"
+      }
+    },
+    {
+      "key": "泥视频",
+      "name": "🥇泥视频┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.nivod6.tv/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
       }
     },
     {
@@ -158,6 +193,27 @@
       "api": "csp_XBPQ",
       "ext": {
         "分类url": "https://haiwaikan.tv/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
+       "分类": "电影$1#剧集$2#动漫$4#综艺$3"
+      }
+    },
+    {
+      "key": "酷亚",
+      "name": "🥇酷亚┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.kuyavod.com/vodshow/{cateId}/by/{by}/page/{catePg}/year/{year}/",
+        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "key": "飞兔",
+      "name": "🥇飞兔┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.feitu.tv/filter/{cateId}/by/{by}/page/{catePg}/year/{year}/",
         "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
        "分类": "电影$1#剧集$2#动漫$4#综艺$3"
       }
@@ -174,27 +230,6 @@
       }
     },
     {
-      "key": "欧乐",
-      "name": "🥇欧乐┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://olevod.link/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-       "分类": "电影$1#剧集$2#动漫$3#综艺$4"
-      }
-    },
-    {
-      "key": "酷亚",
-      "name": "🥇酷亚┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.kuyavod.com/vodshow/{cateId}/by/{by}/page/{catePg}/year/{year}/",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
-      }
-    },
-    {
       "key": "迅雷720",
       "name": "🥇迅雷天堂┃影视",
       "type": 3,
@@ -207,33 +242,24 @@
       }
     },
     {
-      "key": "泥视频",
-      "name": "🥇泥视频┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.nivod6.tv/index.php/vod/show/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
-      }
-    },    
-    {
       "key": "Freeok",
       "name": "🥇Freeok┃影视",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影&剧集&动漫&综艺&短剧&少儿",
-        "分类值": "1&2&3&4&12&5",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36",
-        "副标题": "<div class=\"module-item-note\">&&</div>",
-        "嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-        "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
-        "线路标题": "<span>&&</small>",
-        "导演": "导演：&&</div>",
-        "主演": "主演：&&</div>",
-        "简介": "<p>&&</p>"
-      }
+           "分类url": "https://www.freeok.vip/vod-show/{cateId}-{area}-------{catePg}---{year}.html",
+           "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+           "播放请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+           "分类": "电影&剧集&动漫&综艺&短剧&少儿",
+           "分类值": "1&2&3&4&12&5",
+           "副标题": "<div class=\"module-item-note\">&&</div>",
+           "嗅探词": "toutiaovod#mp4#okvip.mp4#/obj/",
+           "线路数组": "data-dropdown-value=&&</div>[不包含:夸克]",
+           "线路标题": "<span>&&</small>",
+           "导演": "导演：&&</div>",
+           "主演": "主演：&&</div>",
+           "简介": "<p>&&</p>"
+    }
     },
     {
       "key": "csp_996影视",
@@ -408,7 +434,6 @@
         "线路标题": "data-dropdown-value=\"&&\"",
         "播放数组": "<div class=\"scroll-content\">&&</div>",
         "播放标题": "<span>&&</span>",
-        "播放列表": "<a&&</a>",
         "分类url": "https://www.tuhao.tv/vsh/{cateId}-{area}-------{catePg}---{year}.html",
         "分类": "电影$1#剧集$2#动漫$4#纪录片$3#综艺$5#B站$50#电影解说$57#体育$56"
       }
@@ -579,6 +604,42 @@
      }
     },
     {
+            "key": "zy_量子资源",
+            "name": "🏆量子┃采集",
+            "type": 1,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "香港剧",
+                "韩国剧",
+                "欧美剧",
+                "记录片",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫"
+            ]
+    },
+    {
             "key": "乐视资源",
             "name": "🏆乐视┃采集",
             "type": 1,
@@ -587,79 +648,6 @@
             "quickSearch": 1,
             "filterable": 1
     },
-    {
-            "key": "zy_量子资源",
-            "name": "🏆量子┃采集",
-            "type": 1,
-            "api": "https://cj.lziapi.com/api.php/provide/vod/",
-            "playUrl": "https://lziplayer.com/?url=",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "港台动漫",
-                "海外动漫"
-            ]
-    },
-     {
-            "key": "zy_非凡资源",
-            "name": "🏆非凡┃采集",
-            "type": 1,
-        "api":"http://cj.ffzyapi.com/api.php/provide/vod",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "categories": [
-                "动作片",
-                "喜剧片",
-                "爱情片",
-                "科幻片",
-                "恐怖片",
-                "剧情片",
-                "战争片",
-                "国产剧",
-                "香港剧",
-                "韩国剧",
-                "欧美剧",
-                "记录片",
-                "台湾剧",
-                "日本剧",
-                "海外剧",
-                "泰国剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺",
-                "国产动漫",
-                "日韩动漫",
-                "欧美动漫",
-                "港台动漫",
-                "海外动漫"
-            ]
-        },
         {
       "key": "海外看采集",
       "name": "🏆海外看┃采集",
@@ -925,6 +913,27 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./json/BT天堂.json"
+    },
+        {
+      "key": "clgod",
+      "name": "🧲磁力天堂┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.clgod.xyz/{cateId}/index_{catePg}.html[https://www.clgod.xyz/{cateId}]",//好恐怖：最新域名:https://www.haokongbu123.com//https://www.haokongbu.top//www.clgod.xyz//https://www.clgod123.com(原www.clgod.top)//发布页https://sway.cloud.microsoft/DqVzjMUePdpdkE1o
+       "分类": "电影$movie#剧集$tv",
+       "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+       "首页": "剧集$tv",
+       "倒序播放": "1",
+       "数组": "class=\"listauto listp&&</li>",
+       "链接": "href=\"&&\"",
+       "标题": "title=\"&&\"",
+       "副标题": "<br><span>&&</span>",
+       "图片": "src=\"&&\"",
+       "播放数组": "class=\"down list-inline&&</ul>",
+       "播放列表": "<li>*xunlei&&</li>",
+       "播放链接": "href=\"&&\""
+      }
     },
     {
       "key": "csp_4KHDR",
@@ -1546,18 +1555,6 @@
       ]
     },
     {
-      "name": "蜗牛直连去广",
-      "hosts": [
-        "vip.123pan.cn",
-        "rescdn.wuxivlog.cn"
-      ],
-      "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:20.840000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:10.120000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
-    {
       "host": "www.sharenice.net",
       "rule": [
         "http.*?/play.{0,3}\\?[^url]{2,8}=.*",
@@ -1566,27 +1563,30 @@
       ]
     },
     {
-      "name": "采集站广告",
-      "hosts": [
-        "vip.ffzy",
-        "hd.ffzy",
-        "vip.lz",
-        "hd.lz",
-        ".cdnlz",
-        "suonizy",
-        "bfzy",
-        "kuaikan"
-      ],
-      "regex": [
-        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
-      ]
-    },
+            "name": "海外看",
+            "hosts": [
+                "haiwaikan"
+            ],
+            "regex": [
+                "8.1748",
+                "10.0099",
+                "10.3333",
+                "16.0599",
+                "12.33",
+                "1.3680",
+                "1.7684",
+                "1.3346",
+                "2.6026",
+                "2.9362",
+                "10.85"
+            ]
+        },
     {"hosts":["vip.ffzy","hd.ffzy","vip.lz","hd.lz",".cdnlz","bfzy"],
      "name":"量子非凡",
-     "regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+","#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+"]},
-     {"hosts":["suonizy"],
-      "name":"索尼",
-      "regex":["15","15.2666","#EXTINF.*?\\s+.*?p1ayer.*?\\.ts\\s+"]},
+     "regex":["#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+",
+     "#EXTINF.*?\\s+.*?11697777.*?\\.ts\\s+"
+     ]
+     },
     {
       "name": "sn",
       "hosts": [
@@ -1610,7 +1610,7 @@
         "example",
         "社區",
         "x u u",
-        "最新",
+        "最*新",
         "直 播",
         "更 新",
         "社 区",
@@ -1704,168 +1704,6 @@
     "bilibili",
     "哔 哩",
     "哔 哩 哔 哩"
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    }
   ],
   "ads": [
     "mimg.0c1q0l.cn",

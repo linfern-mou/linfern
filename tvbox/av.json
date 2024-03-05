@@ -54,6 +54,96 @@
       "ext": "./json/达达龟.json"
     },
     {
+      "key": "香蕉直播",
+      "name": "🔞香蕉┃直播",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/香蕉直播.json"
+    },
+    {
+      "key": "91md",
+      "name": "🔞91┃麻豆",
+      "type": 1,
+      "api": "https://91md.me/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_XBPQ_麻豆映画",
+      "name": "🔞麻豆┃映画",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/麻豆映画.json"
+    },
+    {
+      "key": "玩偶姐姐",
+      "name": "🔞玩偶┃姐姐",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json1/玩偶姐姐.js"
+    },
+    {
+      "key": "csp_XBPQ_麻豆女优",
+      "name": "🔞麻豆┃女优",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/麻豆女优.json"
+    },
+    {
+      "key": "missav",
+      "name": "🔞missav┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/missav.json"
+    },
+    {
+      "key": "天天综合",
+      "name": "🔞天天┃综合",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/天天综合.json"
+    },
+    {
+      "key": "黄瓜TV",
+      "name": "🔞黄瓜┃TV",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/黄瓜TV.json"
+    },
+    {
+      "key": "csp_xf_18av",
+      "name": "🔞18av┃资源",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/18av.json"
+    },
+    {
       "key": "黑料不打烊",
       "name": "🔞黑料┃影视",
       "type": 3,
@@ -63,9 +153,9 @@
       "filterable": 1,
       "ext": {
       "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-       "分类url": "http://zztt72.com/category/{cateId}/{catePg}.html",
+       "分类url": "https://8pk.kozpgnfe.com/category/{cateId}/{catePg}.html",
        "数组": "video-item \"&&</a>",
-       "主页url": "http://zztt72.com",///https://hl06.co/
+       "主页url": "https://8pk.kozpgnfe.com",///https://hl06.co//155.fun
        "标题": "class=\"title\"*>&&</div>[不包含:.]",
        "图片": "onload=\"loadImg(this,'&&'",
        "链接": "href=\"&&\"",
@@ -78,6 +168,16 @@
        "播放链接": "video\":{\"url\":\"&&\"",
        "分类": "热点吃瓜$7#今日黑料$6#反差女友$4#明星网红$1#独家猛料$9#校园论坛$2#禁播影视$14"
       }
+    },
+    {
+      "key": "女友",
+      "name": "🔞女优┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "./json1/女优.json"
     },
     {
       "key": "ppp",
@@ -138,17 +238,6 @@
       "quickSearch": 1,
       "filterable": 1
      },
-    {
-      "key": "玩偶姐姐",
-      "name": "🔞玩偶┃姐姐",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": "1",
-      "filterable": 0,
-      "ext": "./json1/玩偶姐姐.js"
-    },
     {
       "key": "朱古力",
       "name": "🔞朱古力┃影视",
@@ -211,15 +300,6 @@
         "副标题": "note text-bg-r\">&&<",
         "直接播放":"1"
       }
-    },
-    {
-      "key": "91md",
-      "name": "🔞91┃麻豆",
-      "type": 1,
-      "api": "https://91md.me/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
             "key": "奥斯卡",
@@ -396,16 +476,6 @@
       "ext": "./json1/无极磁力.json"
     },
     {
-      "key": "missav",
-      "name": "🔞missav┃影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json1/missav.json"
-    },
-    {
       "key": "csp_XBPQ_香蕉资源",
       "name": "🔞香蕉┃影视",
       "type": 3,
@@ -466,16 +536,6 @@
       "ext": "./json1/香蕉搜索.json"
     },
     {
-      "key": "csp_XBPQ_香蕉直播",
-      "name": "🔞香蕉┃直播",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json1/香蕉直播.json"
-    },
-    {
       "key": "csp_XBPQ_香蕉AV解说",
       "name": "🔞香蕉┃解说",
       "type": 3,
@@ -494,16 +554,6 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json1/黄仓库.json"
-    },
-    {
-      "key": "csp_XBPQ_麻豆映画",
-      "name": "🔞麻豆┃映画",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json1/麻豆映画.json"
     },
     {
       "key": "csp_XBPQ_香蕉",
@@ -555,17 +605,6 @@
       "filterable": 1,
       "ext": "./json1/天天综合.json"
     },
-    {
-      "key": "csp_xf_18av",
-      "name": "🔞18av┃资源",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "./json1/18av.json"
-    },
-   
     {
       "key": "博天堂",
       "name": "🔞博天堂┃资源",
@@ -739,6 +778,16 @@
       "filterable": 0
     },
     {
+      "key": "csp_AList",
+      "name": "🥇alist┃网盘",
+      "type": 3,
+      "api": "./lib/alist.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json1/alist.json"
+    },
+    {
       "key": "抖阴",
       "name": "🔞抖阴┃资源",
       "type": 1,
@@ -746,6 +795,17 @@
       "quickSearch": 1,
       "searchable": 1,
       "filterable": 1
+    },
+    {
+      "key": "push_agent",
+      "name": "🥈阳尘┃推送",
+      "type": 3,
+      "api": "csp_PushAgent",
+      "searchable": 1,
+      "quickSearch": 1,
+      "timeout": 5000,
+      "filterable": 0,
+      "ext": "./token.txt"
     }
   ],
   "parses": [
@@ -871,236 +931,5 @@
     "xigua",
     "m1905",
     "funshion"
-  ],
-  "ijk": [
-    {
-      "group": "软解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    },
-    {
-      "group": "硬解码",
-      "options": [
-        {
-          "category": 4,
-          "name": "opensles",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "overlay-format",
-          "value": "842225234"
-        },
-        {
-          "category": 4,
-          "name": "framedrop",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "soundtouch",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "start-on-prepared",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "http-detect-range-support",
-          "value": "0"
-        },
-        {
-          "category": 1,
-          "name": "fflags",
-          "value": "fastseek"
-        },
-        {
-          "category": 2,
-          "name": "skip_loop_filter",
-          "value": "48"
-        },
-        {
-          "category": 4,
-          "name": "reconnect",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "max-buffer-size",
-          "value": "5242880"
-        },
-        {
-          "category": 4,
-          "name": "enable-accurate-seek",
-          "value": "0"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-auto-rotate",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-handle-resolution-change",
-          "value": "1"
-        },
-        {
-          "category": 4,
-          "name": "mediacodec-hevc",
-          "value": "1"
-        },
-        {
-          "category": 1,
-          "name": "dns_cache_timeout",
-          "value": "600000000"
-        }
-      ]
-    }
-  ],
-  "ads": [
-    "mimg.0c1q0l.cn",
-    "www.googletagmanager.com",
-    "www.google-analytics.com",
-    "mc.usihnbcq.cn",
-    "mg.g1mm3d.cn",
-    "mscs.svaeuzh.cn",
-    "cnzz.hhttm.top",
-    "tp.vinuxhome.com",
-    "cnzz.mmstat.com",
-    "www.baihuillq.com",
-    "s23.cnzz.com",
-    "z3.cnzz.com",
-    "c.cnzz.com",
-    "stj.v1vo.top",
-    "z12.cnzz.com",
-    "img.mosflower.cn",
-    "tips.gamevvip.com",
-    "ehwe.yhdtns.com",
-    "xdn.cqqc3.com",
-    "www.jixunkyy.cn",
-    "sp.chemacid.cn",
-    "hm.baidu.com",
-    "s9.cnzz.com",
-    "z6.cnzz.com",
-    "um.cavuc.com",
-    "mav.mavuz.com",
-    "wofwk.aoidf3.com",
-    "z5.cnzz.com",
-    "xc.hubeijieshikj.cn",
-    "tj.tianwenhu.com",
-    "xg.gars57.cn",
-    "k.jinxiuzhilv.com",
-    "cdn.bootcss.com",
-    "ppl.xunzhuo123.com",
-    "xomk.jiangjunmh.top",
-    "img.xunzhuo123.com",
-    "z1.cnzz.com",
-    "s13.cnzz.com",
-    "xg.huataisangao.cn",
-    "z7.cnzz.com",
-    "xg.huataisangao.cn",
-    "z2.cnzz.com",
-    "s96.cnzz.com",
-    "q11.cnzz.com",
-    "thy.dacedsfa.cn",
-    "xg.whsbpw.cn",
-    "s19.cnzz.com",
-    "z8.cnzz.com",
-    "s4.cnzz.com",
-    "f5w.as12df.top",
-    "ae01.alicdn.com",
-    "www.92424.cn",
-    "k.wudejia.com",
-    "vivovip.mmszxc.top",
-    "qiu.xixiqiu.com",
-    "cdnjs.hnfenxun.com",
-    "cms.qdwght.com"
   ]
 }
