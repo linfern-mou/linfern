@@ -1,6 +1,6 @@
 {
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
-  "spider": "./jar/0205.jar",
+  "spider": "./jar/0210.jar",
   "lives": [
     {
             "name": "阳尘直播",
@@ -54,6 +54,17 @@
       "ext": "./json/达达龟.json"
     },
     {
+      "key": "ss直播",
+      "name": "🥇ss┃直播",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": "1",
+      "filterable": 0,
+      "ext": "./json1/ss直播.js"
+    },
+    {
       "key": "香蕉直播",
       "name": "🔞香蕉┃直播",
       "type": 3,
@@ -71,6 +82,31 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "javmulu",
+      "name": "🔞javmulu┃磁力",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+      "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+       "分类url": "https://javmulu.info/{cateId}&page={catePg}",
+       "分类": "磁力$magnet-share/index?tag_type_search=0#高清$magnet-share/index?tag_type_search=1#高清字幕$magnet-share/index?tag_type_search=2",
+       "主页url": "https://javmulu.info",
+       "数组": "class=\"item col-6 mb-2&&</article>",
+       "标题": "text-secondary\">&&</h5>",
+       "副标题": "时间:+text-primary\">&&<",
+       "图片": "data-src=\"&&\"",
+       "链接": "href=\"&&\"",
+       "播放数组": "tbody&&</tbody",
+       "播放列表": "<tr&&</tr>",
+       "简介": "list-unstyled video-info\">&&</ul>",
+       "线路标题": "阳尘",
+       "播放链接": "href=\"&&\""
+      }
     },
     {
       "key": "csp_XBPQ_麻豆映画",
@@ -144,6 +180,33 @@
       "ext": "./json1/18av.json"
     },
     {
+      "key": "91吃瓜",
+      "name": "🔞91┃吃瓜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+      "请求头": "User-Agent@Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; LYA-AL10 Build/HUAWEILYA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.5.7.342 Mobile Safari/537.36",
+       "分类url": "https://hye5z3.ythtzsar.tips/category/jrcg/{catePg}",
+       "数组": "article&&</article>",
+       "主页url": "https://hye5z3.ythtzsar.tips",///https://hl06.co//155.fun
+       "标题": "itemprop=\"headline\">&&</h2>",
+       "图片": "loadBannerDirect('&&'",
+       "图片请求头": "User-Agent@Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; LYA-AL10 Build/HUAWEILYA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.5.7.342 Mobile Safari/537.36",
+       "链接": "href=\"&&\"",
+       "播放列表": "class='dplayer'&&</div>",
+       "简介": "class=\"detail-title*daa&&</h1>",
+       "线路标题": "线路一+<p3>&&</66p>",
+       "播放标题": "第一集",
+       "副标题": "黑料网",
+       "直接播放": "1",
+       "播放链接": "video\":{\"url\":\"&&\"",
+       "分类": "热点吃瓜$7#今日黑料$6#反差女友$4#明星网红$1#独家猛料$9#校园论坛$2#禁播影视$14"
+      }
+    },
+    {
       "key": "黑料不打烊",
       "name": "🔞黑料┃影视",
       "type": 3,
@@ -153,11 +216,12 @@
       "filterable": 1,
       "ext": {
       "请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
-       "分类url": "https://8pk.kozpgnfe.com/category/{cateId}/{catePg}.html",
+       "分类url": "https://hhgt.hgekbuvqu.com/category/{cateId}/{catePg}.html",
        "数组": "video-item \"&&</a>",
-       "主页url": "https://8pk.kozpgnfe.com",///https://hl06.co//155.fun
-       "标题": "class=\"title\"*>&&</div>[不包含:.]",
+       "主页url": "https://hhgt.hgekbuvqu.com/",///https://hl06.co//155.fun
+       "标题": "class=\"title\"*>&&</div>[不包含:黑料网最新地址#黑料网免费吃瓜",
        "图片": "onload=\"loadImg(this,'&&'",
+       "图片请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
        "链接": "href=\"&&\"",
        "播放列表": "class='dplayer'&&</div>",
        "简介": "class=\"detail-title*daa&&</h1>",
