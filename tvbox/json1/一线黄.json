@@ -1,0 +1,23 @@
+{
+    "数组": "thumbnail random-list&&</li>",
+    "图片": "src=\"&&\"",
+    "标题": "title=\"&&\"",
+    "副标题": "<p>&&</p>",
+    "简介": "description\" content=\"&&\"",
+    "链接": "href=\"/index.php/vod/detail/id/&&.html\"",
+    "链接前缀": "https://xn--5lwm99aomd.1mfav01.com/index.php/vod/play/id/",
+    "链接后缀": "/sid/1/nid/1.html",
+    "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
+    "搜索数组": "thumbnail random-list&&</li>",
+    "搜索图片": "src=\"&&\"",
+    "搜索标题": "title=\"&&\"",
+    "搜索副标题": "<p>&&</p>",
+    "搜索链接": "href=\"/index.php/vod/detail/id/&&.html\"",
+    "搜索链接前缀": "https://xn--5lwm99aomd.1mfav01.com/index.php/vod/play/id/",
+    "搜索链接后缀": "/sid/1/nid/1.html",
+    "搜索url": "https://xn--5lwm99aomd.1mfav01.com/index.php/vod/search/page/{pg}/wd/{wd}.html",
+    "分类数组": "<a&&/a>",
+    "分类标题": ">&&<",
+    "分类ID": "href=\"/index.php/vod/type/id/&&.html\"",
+    "分类url": "https://xn--5lwm99aomd.1mfav01.com/index.php/vod/type/id/{cateId}/page/{catePg}.html;;z"
+}

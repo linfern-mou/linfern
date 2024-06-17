@@ -1,0 +1,37 @@
+{
+    
+    "作者":"yangchen",
+    
+    "站名":"磁力搜索",
+    
+    "主页url": "",
+    
+    "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+      
+    "搜索url": "https://clxf.me/list.php?name={wd}&page={pg}&order=length",
+
+    "搜索模式": "1",
+
+    "搜索数组": "card border-dashed border-2 mb-2&&</div>",
+
+    "搜索图片": "https://gitee.com/linfern/yangchen/raw/master/tvbox/pic/1.jpg",
+
+    "搜索标题": "h5*cursor:pointer\">&&</a>",
+
+    "搜索副标题": "大小：+text-success\">&&</pan",
+"调试":"1",
+    "搜索链接": "https://clxf.me/detail.php?md5hash=+onclick=\"xiangqing('*,'&&'+&sjk=+xiangqing('&&'",
+   
+    "线路数组":"data-dropdown-value=&&</div>",
+    
+    "线路标题":"<span>&&</small>+阳尘磁力",
+
+    "简介":"magnet-title\">&&</h2>+遇到广告请勿相信，有问题请及时联系我",
+    
+    "播放数组":"id=\"magnet&&</div>",
+        
+    "播放列表":"<a&&</a>",
+    
+    "播放链接": "href=\"&&\""
+   
+}
