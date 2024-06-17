@@ -51,10 +51,16 @@
     
         "搜索副标题":"title=*>&&</a>",
         
+        
+        
         "分类": "电影$6#国产剧$13#美剧$14#日韩剧$15#动漫$3#国漫$20#日漫$21#欧美动漫$22",
-        "分类url": "https://www.ziziys.com/list/{cateId}-{catePg}.html;;val",
-       "跳转播放链接": "vod_class*url\":\"&&\"",
-       "筛选":{
+        
+        "分类url": "https://www.ziziys.com/list/{cateId}-{catePg}.html;;m",
+        
+       "跳转播放链接": "https://www.ziziys.com+iframe*src=\"&&\"",
+       
+       "二次跳转播放链接": "player_aaaa*url\":\"&&\"",
+    "筛选":{
     "6":[
     {"key":"cateId","name":"类型","value":[
     {"n":"全部类型","v":"6"},
