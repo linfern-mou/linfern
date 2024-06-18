@@ -492,7 +492,7 @@
             "name": "阳尘",
             "type": 0,
             "playerType": 1,
-            "url": "./live/直播源.txt",
+            "url": "https://cdn.jsdelivr.net/gh/linfern-mou/linfern@main/iptv/yangchen.txt",
             "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
