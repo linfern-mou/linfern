@@ -1,7 +1,7 @@
 {
-  "wallpaper": "./pic/2.png",
+  "wallpaper": "./pic/1.png",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/0610.jar",
+  "spider": "./jar/0710.jar",
   "sites": [
     { 
       "key": "黑木耳", 
@@ -40,7 +40,7 @@
       "key": "华为吧",
       "name": "🏆华为吧┃采集",
       "type": 1,
-      "api": "https://hw8.live/api.php/provide/vod",
+      "api": "http://huaweiba.live/api.php/provide/vod",//huaweiba.live//huawei8.live
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
