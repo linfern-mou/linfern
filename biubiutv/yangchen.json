@@ -327,7 +327,7 @@
 "播放剧集链接后缀": "空",
 "启用嗅探截取": "1",
 "嗅探请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
-"播放地址二次截取": "var player_$$</div>",
+"播放地址二次截取": "player_$$</div>",
 "播放地址截取": "\"url\":\"$$\"",
 "是否base64解码": "0",
 "是否url解码": "0",
