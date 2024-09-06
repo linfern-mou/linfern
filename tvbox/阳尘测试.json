@@ -1,7 +1,7 @@
 {
   "wallpaper": "./pic/2.png",
   "warningText": "接口免费提供,仅供测试",
-  "spider": "./jar/pg.jar",
+  "spider": "./jar/0810.jar",
   "sites": [
   
     {
@@ -24,6 +24,83 @@
       "quickSearch": 1,
       "filterable": 0,
       "ext": "./json/海外看采集.json"
+    },
+    {
+      "key": "极光影视",
+      "name": "极光┃ 影视",
+      "type": 3,
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XBPQ",
+      "ext": {
+      "主页": "https://m.jigys.com",
+      "分类": "电影$1#电视剧$2#动漫$4#综艺$3",
+      "数组": "class=\"title\">&&class=\"score",
+      "标题": "<span>&&</span>",
+      "链接": "href=\"&&\"",
+      "副标题": "top\">&&</div>"
+      }
+      },
+      {
+      "key": "文采影视",
+      "name": "🌼文采┃影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "changeable": 0,
+      "ext": {
+        "主页url": "https://www.hkybqufgh.com/",
+        "简介": "\u003C/label\u003E&&\u003C/div\u003E",
+        "嗅探词": "m3u8",
+        "影片类型": "tags\"\u003E&&director\"\u003E",
+        "影片状态": "bottom\"\u003E&&\u003C/div\u003E",
+        "二次截取": "videoList\":\\[&&\\]",
+        "数组": "{&&}[不包含:伦理剧]",
+        "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
+        "标题": "vodName\":\"&&\"",
+        "副标题": "vodRemarks\":\"&&\"",
+        "链接": "https://www.hkybqufgh.com/detail/+vodId\":&&,",
+        "导演": "导演:\u003C/div\u003E&&主演",
+        "主演": "主演:\u003C/div\u003E&&别名",
+        "线路标题": "小米文采",
+        "播放数组": "listitem\"\u003E&&info\"\u003E",
+        "播放列表": "\u003Ca&&\u003C/a\u003E",
+        "倒序": "否",
+        "搜索url": "https://www.hkybqufgh.com/vod/search/{wd}",
+        "搜索副标题": "class=\"boottom\"*\u003Cdiv\u003E&&\u003C/div",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "分类url": "https://www.hkybqufgh.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
+      }
+    },
+    {
+      "key": "freeok",
+      "name": "🦁freeOK┃独家",
+      "type": 3,
+      "changeable": 1,
+      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+      "api": "csp_FreeOK"
+    },
+    {
+      "key": "csp_LiteApple",
+      "name": "🍎苹果┃1080P",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_LiteApple",
+      "playerType": 1,
+      "filterable": 1,
+      "ext": ""
+    },
+    {
+      "key": "csp_瓜子",
+      "name": "🌰瓜子┃1080P",
+      "api": "csp_Gz360",
+      "type": 3,
+      "searchable": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0
     },
     {
       "key": "华人影视",
@@ -133,6 +210,15 @@
       "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}-{area}--{year}-2-{catePg}.html"
       }
       },
+      {
+            "key": "php_hmezy",
+            "name": "黑木耳克隆",
+            "type": 4,
+            "api": "https://demobe.serv00.net/heimuer.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0
+        },
     { 
       "key": "黑木耳", 
       "name": "黑木耳┃采集", 
