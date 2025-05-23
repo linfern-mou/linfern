@@ -54,7 +54,7 @@
       "key": "金牌影院", 
       "name": "🥇金牌┃影院", 
       "type": 3, 
-      "api": "./lib/drpy2.min.js", 
+      "api": "https://raw.githubusercontent.com/hjdhnx/drpy-node/refs/heads/main/libs/drpyS.js", 
       "searchable": 1, 
       "quickSearch": 1, 
       "filterable": 1, 
