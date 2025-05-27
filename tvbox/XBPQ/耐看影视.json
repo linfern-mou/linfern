@@ -1,0 +1,47 @@
+///发布页www.lkvod.cc
+
+{
+
+"站名":"耐看影视",
+
+"主页url":"https://www.nkvod.com/",
+
+"简介":"<p&&</p>",
+
+"导演":"导演：&&</div>",
+
+"主演":"主演：&&</div>",
+
+"影片状态":"集数：&&</div>",
+
+"影片类型":"module-info-tag\">&&立即播放",
+
+"搜索模式":"1",
+
+"搜索url":"/nk/-------------.html?wd={wd}",
+
+"搜索数组":"module-card-item-class\">&&</a>",
+
+"搜索标题":"alt=\"&&\"",
+
+"搜索副标题":"note\">&&</div>",
+
+"搜索图片":"data-original=\"&&\"",
+
+"搜索链接":"href=\"&&\"",
+
+//"嗅探词": "m3u8",
+
+"跳转播放链接": "\"url\"*\"&&\"",
+
+"请求头": "User-Agent@Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; LYA-AL10 Build/HUAWEILYA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.5.7.342 Mobile Safari/537.36",
+  
+"播放请求头": "User-Agent@Mozilla/5.0 (Linux; U; Android 10; zh-Hans-CN; LYA-AL10 Build/HUAWEILYA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.58 Quark/6.5.7.342 Mobile Safari/537.36",
+
+"线路数组":"data-dropdown-value=&&</div>[不包含:腾讯#奇艺#优酷#芒果]",
+
+"线路标题":"<span>&&</small>[替换:</span><small>>>🌸共]+集🌸",
+"类型":"动作片$6#喜剧片$7||空||国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#其他剧$20||空||空||空||",
+"分类":"电影$1#国产剧$13#电视剧$2#综艺$3#动漫$4#短剧$21",
+"分类url":"https://www.nkvod.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
+}

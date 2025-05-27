@@ -1,0 +1,38 @@
+{
+    
+    "作者":"yangchen",
+    
+    "站名":"2048bt",
+    
+    "主页url": "",
+    
+    "请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1",
+      
+    "搜索url": "https://qbnitiwu.2048178.xyz/search-{wd}-1-1-1.html",//★注意★本站地址随时可能失效//找到本站最新地址的两种方法： 1、记住地址发布页2048bt.cc、2048bt.cyou、bt搜索.xyz、bt搜索.cc https://2048bt.top/https://204820240606.204820481.xyz/
+    //2、发送“地址”到2048bt@gmail.com
+
+    "搜索模式": "1",
+
+    "搜索数组": "class=\"detail&&</dl>",
+
+    "搜索图片": "https://gitee.com/linfern/yangchen/raw/master/tvbox/pic/1.jpg",
+
+    "搜索标题": "blank\"&&/span></a>[替换:【*】>>空#\\[y5y4.com\\]>>空#酷吧电影：kubady1.com>>空#\\[4K世界\\]>>空]",
+
+    "搜索副标题": "大小：+span>文档大小:&&</span",
+
+    "搜索链接": "href=\"&&\"",
+   
+    "线路数组":"data-dropdown-value=&&</div>",
+    
+    "线路标题":"<span>&&</small>+阳尘磁力",
+
+    "简介":"magnet-title\">&&</h2>+遇到广告请勿相信，有问题请及时联系我",
+    
+    "播放数组":"am-panel-bd downmagnet&&</div>",
+        
+    "播放列表":"<a&&</a>[不包含:PIKPAK]",
+    
+    "播放链接": "href=\"&&\""
+   
+}

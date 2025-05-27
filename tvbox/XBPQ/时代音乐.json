@@ -1,0 +1,189 @@
+{
+	"请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+	"编码": "UTF-8",
+	"图片代理": "0",
+	"主页url": "http://www.78497.com",
+	"首页": "热门榜单",
+	"起始页": "1",
+	"分类url": "/{cateId}/{catePg}.html",
+	"分类": "热门榜单$list/top#特色音乐$list/dytop#全球榜单$list/song",
+	"数组": "<a&&/span></a>",
+	"标题": "title=\"&&\"[替换:mp3下载>>空]",
+	"图片": "src=\"&&\"",
+	"副标题": "stime\">&&<",
+	"链接": "href=\"&&\"",
+	"影片地区": "num\">&&</span>",
+	"简介": "时待音乐网",
+	"搜索请求头": "User-Agent@Mozilla/5.0 (Linux；； Android 11；； Mi 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.152 Mobile Safari/537.36",
+	"搜索url": "/so.php?wd={wd}&page={pg}",
+	"搜索数组": "class=\"pic&&</li>",
+	"搜索标题": "class=\"url\" target=\"_mp3\">&&</a>",
+	"搜索图片": "src=\"&&\"",
+	"搜索副标题": "stime\">&&<",
+	"搜索链接": "href=\"&&\"",
+	"线路数组": "mi_paly_box\">&&</div>",
+	"线路标题": "时代音乐网",
+	"播放数组": "class=\"container&&function",
+	"播放列表": "class=\"main\"&&loadXMLDoc",
+	"播放标题": "id=\"player_title\">&&</div>",
+	"播放链接": "http://www.78497.com/mp3/+lkid = '&&';+.html",
+	"短视频": "1",
+	"筛选": {
+		"list/top": [
+			{
+				"key": "cateId",
+				"name": "热门榜单：",
+				"value": [
+					{
+						"n": "酷狗飙升榜",
+						"v": "list/kugou"
+					},
+					{
+						"n": "TOP排行榜",
+						"v": "list/top"
+					},
+					{
+						"n": "抖音热歌榜",
+						"v": "list/douyin"
+					},
+					{
+						"n": "快手热歌榜",
+						"v": "list/kuaishou"
+					},
+					{
+						"n": "DJ热歌榜",
+						"v": "list/djtop"
+					},
+					{
+						"n": "音乐分享榜",
+						"v": "list/share"
+					},
+					{
+						"n": "内地排行榜",
+						"v": "list/ndtop"
+					},
+					{
+						"n": "香港排行榜",
+						"v": "list/hktop"
+					},
+					{
+						"n": "台湾排行榜",
+						"v": "list/twtop"
+					},
+					{
+						"n": "欧美排行榜",
+						"v": "list/ustop"
+					},
+					{
+						"n": "韩国排行榜",
+						"v": "list/krtop"
+					}
+				]
+			}
+		],
+		"list/dytop": [
+			{
+				"key": "cateId",
+				"name": "类型",
+				"value": [
+					{
+						"n": "ACG新歌榜",
+						"v": "list/newacg"
+					},
+					{
+						"n": "电音热歌榜",
+						"v": "list/dytop"
+					},
+					{
+						"n": "综艺新歌榜",
+						"v": "list/newzy"
+					},
+					{
+						"n": "说唱先锋榜",
+						"v": "list/sctop"
+					},
+					{
+						"n": "影视金曲榜",
+						"v": "list/ystop"
+					},
+					{
+						"n": "粤语金曲榜",
+						"v": "list/yytop"
+					},
+					{
+						"n": "欧美金曲榜",
+						"v": "list/omtop"
+					},
+					{
+						"n": "音乐人原创榜",
+						"v": "list/kkyc"
+					},
+					{
+						"n": "酷狗雷达榜",
+						"v": "list/leida"
+					},
+					{
+						"n": "80后热歌榜",
+						"v": "list/blhot"
+					},
+					{
+						"n": "90后热歌榜",
+						"v": "list/jlhot"
+					}
+				]
+			}
+		],
+		"list/song": [
+			{
+				"key": "cateId",
+				"name": "类型",
+				"value": [
+					{
+						"n": "美国单曲榜",
+						"v": "list/mgtop"
+					},
+					{
+						"n": "英国单曲榜",
+						"v": "list/ygtop"
+					},
+					{
+						"n": "日本歌曲榜",
+						"v": "list/rbtop"
+					},
+					{
+						"n": "韩国音乐榜",
+						"v": "list/hgtop"
+					},
+					{
+						"n": "JOOX热歌榜",
+						"v": "list/joox"
+					},
+					{
+						"n": "KKBOX风云榜",
+						"v": "list/kkbox"
+					},
+					{
+						"n": "SHOWER榜",
+						"v": "list/space"
+					},
+					{
+						"n": "电子舞曲榜",
+						"v": "list/btptop"
+					},
+					{
+						"n": "小语种热歌",
+						"v": "list/xyztop"
+					},
+					{
+						"n": "洗脑神曲",
+						"v": "list/song"
+					},
+					{
+						"n": "DJ舞曲",
+						"v": "list/djwuqu"
+					}
+				]
+			}
+		]
+	}
+}
