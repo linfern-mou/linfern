@@ -19,18 +19,18 @@ cheerio.jinja2 = function(template, obj) {
     }
 };
 let vercode = typeof pdfl === "function" ? "drpy2.1" : "drpy2";
-const VERSION = vercode + " 3.9.51beta6 20250123";
+const VERSION = vercode + " 3.9.51beta6 20241126";
 const UpdateInfo = [{
-    date: "20250524修改了无数据时显示的图片，及name以及加了ext2，加了无数据时二级页面，其他并未改动",
+    date: "20241126",
     title: "drpy更新，优化去广告算法",
-    version: "3.9.51beta6 20250123",
+    version: "3.9.51beta6 20241126",
     msg: `
  1. 更新龙头大佬提供的去广告算法  
        `
 }, {
-    date: "20250123",
+    date: "20241104",
     title: "drpy更新，增加新特性",
-    version: "3.9.51beta5 20250123",
+    version: "3.9.51beta5 20241104",
     msg: `
  1. rule增加 搜索验证标识 属性,可以不定义，默认为 '系统安全验证|请输入验证码' 
  2. rule增加 searchNoPage 属性，可以不定义，如果定义 1 将关闭该源的搜索翻页功能，超过1页直接返回空     
@@ -247,7 +247,6 @@ var RKEY;
 var fetch;
 var print;
 var log;
-var ext2;
 var rule_fetch_params;
 var fetch_params;
 var oheaders;
@@ -890,30 +889,30 @@ function fixAdM3u8Ai(m3u8_url, headers) {
                 if (n == 1) k1 = i;
                 if (s2.indexOf(s1) == -1) {
                     s2 = s2 + s1;
-                    m++;
+                    m++
                 }
                 t = t + parseFloat(s1);
                 i++;
-                s = ss[i];
+                s = ss[i]
             }
             if (s.startsWith("#EXT-X-DISCONTINUITY")) {
                 if (n == 5) {
                     log("n:" + n);
                     log("m:" + m);
                     for (let j = k1; j < k1 + n * 2; j++) {
-                        log(ss[j]);
+                        log(ss[j])
                     }
                     log("广告位置：" + k1);
                     log("数据条数:" + n);
                     log("数据种类:" + m);
                     log("广告时间：" + t.toFixed(5));
                     ss.splice(k1, 2 * n + 1);
-                    i = i - 2 * n + 1;
+                    i = i - 2 * n + 1
                 }
                 t = 0;
                 m = 0;
                 n = 0;
-                s2 = "";
+                s2 = ""
             }
         }
     }
@@ -1982,10 +1981,10 @@ function categoryParse(cateObj) {
     }
     let nodata = {
         list: [{
-            vod_name: "无数据,有问题找阳尘",
+            vod_name: "无数据,防无限请求",
             vod_id: "no_data",
             vod_remarks: "不要点,会崩的",
-            vod_pic: "https://ghproxy.net/https://raw.githubusercontent.com/linfern-mou/linfern/refs/heads/main/tvbox/pic/4.jpg"
+            vod_pic: "https://ghproxy.net/https://raw.githubusercontent.com/hjdhnx/dr_py/main/404.jpg"
         }],
         total: 1,
         pagecount: 1,
@@ -2186,24 +2185,6 @@ function detailParse(detailObj) {
     let t1 = (new Date).getTime();
     fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
     let orId = detailObj.orId;
-    
-    // 插入特殊条件判断 - 开始
-    if (orId === 'no_data') {
-        let VOD = {
-            vod_content: '20250523修改，如果有问题请联系我',
-            vod_name: '阳尘测试专用',
-            type_name: '请保持安静',
-            vod_pic: 'https://raw.githubusercontent.com/linfern-mou/linfern/refs/heads/main/tvbox/pic/4.jpg',
-            vod_remarks: `仅供测试`,
-            vod_play_from: '阳尘',
-            vod_play_url: '卓依婷爱拼才会赢$http://vd3.bdstatic.com/mda-jfreugw1pcza8xr1/mda-jfreugw1pcza8xr1.mp4?playlist=%5B%22hd%22%2C%22sc%22%5D#卓依婷东南西北风$http://vd3.bdstatic.com/mda-jf9fszd51shymgp6/mda-jf9fszd51shymgp6.mp4?playlist=%5B%22hd%22%2C%22sc%22%5D#未名式$https://vd4.bdstatic.com/mda-kmbika46ppvf7nzc/v1-cae/1080p/mda-kmbika46ppvf7nzc.mp4',
-        };
-        return JSON.stringify({
-            list: [VOD]
-        });
-    }
-    // 插入特殊条件判断 - 结束
-    
     let vod_name = "片名";
     let vod_pic = "";
     let vod_id = orId;
@@ -2240,7 +2221,7 @@ function detailParse(detailObj) {
         }
     }
     if (p === "*") {
-        vod.vod_play_from = "道长在线";
+        vod.vod_play_from = "在线播放";
         vod.vod_remarks = detailUrl;
         vod.vod_actor = "没有二级,只有一级链接直接嗅探播放";
         vod.vod_content = MY_URL;
@@ -2346,7 +2327,7 @@ function detailParse(detailObj) {
             }
             console.log(JSON.stringify(playFrom))
         } else {
-            playFrom = ["道长在线"]
+            playFrom = ["在线播放"]
         }
         vod.vod_play_from = playFrom.join(vod_play_from);
         let vod_play_url = "$$$";
@@ -2512,7 +2493,6 @@ function playParse(playObj) {
             if (lazy_code.startsWith("js:")) {
                 lazy_code = lazy_code.replace("js:", "").trim()
             }
-            lazy_code = lazy_code + ';if (rule.skipproxyad!==true && rule.proxy_rule.indexOf(\'fixAdM3u8Ai(\')>0){let getProxyUrlStr=getProxyUrl();if(typeof input===\'string\'){if (input.indexOf(getProxyUrlStr)<0&&(/\\.m3u8$/.test(input)||input.indexOf(\'m3u8?\')>0))input = {jx: 0,url: getProxyUrlStr+\'&url=\'+base64Encode(input),parse: 0,header: rule.headers};}else{let inputUrlStr=input.url;let inputHeader=(typeof input.header===\'undefined\') ? rule.headers:input.header;if (inputUrlStr.indexOf(getProxyUrlStr)<0&&(/\\.m3u8$/.test(inputUrlStr)||inputUrlStr.indexOf(\'m3u8?\')>0))input = {jx: 0,url: getProxyUrlStr+\'&url=\'+base64Encode(inputUrlStr),parse: 0,header: inputHeader};}}';
             print("开始执行js免嗅=>" + lazy_code);
             eval(lazy_code);
             lazy_play = typeof input === "object" ? input : {
@@ -2684,10 +2664,6 @@ function init(ext) {
         if (typeof ext == "object") {
             rule = ext
         } else if (typeof ext == "string") {
-            if (ext.indexOf('$') > 0) {
-                ext2 = ext.split('$')[1];
-                ext = ext.split('$')[0];
-            }
             let is_file = ext.startsWith("file://");
             if (ext.startsWith("http") || is_file) {
                 let query = getQuery(ext);
@@ -2765,13 +2741,6 @@ function init(ext) {
             print("继承模板:" + rule.模板);
             rule = Object.assign(muban[rule.模板], rule)
         }
-        let checkproxy_rule = false;
-        if (typeof rule.proxy_rule == 'undefined') {
-            checkproxy_rule = true
-        } else if (rule.proxy_rule.trim().length == 0) {
-            checkproxy_rule = true
-        }
-        if (rule.play_parse == true && checkproxy_rule == true) rule.proxy_rule = "js:let url=base64Decode(input.url);let headers=input;delete headers['remote-addr'];delete headers['http-client-ip'];delete headers['host'];delete headers['url'];delete headers['do'];delete headers['connection'];delete headers['accept-encoding'];delete headers['icy-metadata'];let m3u8=fixAdM3u8Ai(url,headers);input=[200,'application/vnd.apple.mpegurl',m3u8]";
         let rule_cate_excludes = (rule.cate_exclude || "").split("|").filter(it => it.trim());
         let rule_tab_excludes = (rule.tab_exclude || "").split("|").filter(it => it.trim());
         rule_cate_excludes = rule_cate_excludes.concat(CATE_EXCLUDE.split("|").filter(it => it.trim()));

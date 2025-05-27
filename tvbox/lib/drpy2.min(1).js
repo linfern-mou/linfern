@@ -21,7 +21,7 @@ cheerio.jinja2 = function(template, obj) {
 let vercode = typeof pdfl === "function" ? "drpy2.1" : "drpy2";
 const VERSION = vercode + " 3.9.51beta6 20250123";
 const UpdateInfo = [{
-    date: "20250524修改了无数据时显示的图片，及name以及加了ext2，加了无数据时二级页面，其他并未改动",
+    date: "20250524修改了无数据时显示的图片，以及加了ext2，其他并未改动",
     title: "drpy更新，优化去广告算法",
     version: "3.9.51beta6 20250123",
     msg: `
@@ -2186,24 +2186,6 @@ function detailParse(detailObj) {
     let t1 = (new Date).getTime();
     fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
     let orId = detailObj.orId;
-    
-    // 插入特殊条件判断 - 开始
-    if (orId === 'no_data') {
-        let VOD = {
-            vod_content: '20250523修改，如果有问题请联系我',
-            vod_name: '阳尘测试专用',
-            type_name: '请保持安静',
-            vod_pic: 'https://raw.githubusercontent.com/linfern-mou/linfern/refs/heads/main/tvbox/pic/4.jpg',
-            vod_remarks: `仅供测试`,
-            vod_play_from: '阳尘',
-            vod_play_url: '卓依婷爱拼才会赢$http://vd3.bdstatic.com/mda-jfreugw1pcza8xr1/mda-jfreugw1pcza8xr1.mp4?playlist=%5B%22hd%22%2C%22sc%22%5D#卓依婷东南西北风$http://vd3.bdstatic.com/mda-jf9fszd51shymgp6/mda-jf9fszd51shymgp6.mp4?playlist=%5B%22hd%22%2C%22sc%22%5D#未名式$https://vd4.bdstatic.com/mda-kmbika46ppvf7nzc/v1-cae/1080p/mda-kmbika46ppvf7nzc.mp4',
-        };
-        return JSON.stringify({
-            list: [VOD]
-        });
-    }
-    // 插入特殊条件判断 - 结束
-    
     let vod_name = "片名";
     let vod_pic = "";
     let vod_id = orId;
