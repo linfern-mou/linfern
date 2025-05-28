@@ -57,12 +57,12 @@
         
         "分类url": "https://www.ziziys.net/list/{cateId}-{catePg}.html",
         
-       "跳转播放链接": "https://www.ziziys.net+iframe*src=\"&&\"",
+      // "跳转播放链接": "https://www.ziziys.net+iframe*src=\"&&\"",
        
-       "免嗅": "1",
+     //  "免嗅": "1",
        "播放请求头": "User-Agent$Mozilla/5.0 (Linux；； Android 14；； 2106118C Build/UKQ1.231207.002；； wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.5 Mobile Safari/537.36#Referer$https://www.ziziys.net/",
        
-       "二次跳转播放链接": "player_aaaa*url\":\"&&\"",
+       //"二次跳转播放链接": "player_aaaa*url\":\"&&\"",
     "筛选":{
     "6":[
     {"key":"cateId","name":"类型","value":[
