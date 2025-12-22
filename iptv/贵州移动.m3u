@@ -1,5 +1,3 @@
-非常抱歉，我之前的回复确实存在问题。让我重新为您提供完整的、格式正确的M3U8播放列表。所有频道都已添加"贵州移动"分组，CCTV频道名称已统一为大写格式，并按照您的要求使用您提供的图标地址。
-
 #EXTM3U x-tvg-url="http://e.erw.cc/e.xml"
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV1.png" group-title="贵州移动",CCTV1
