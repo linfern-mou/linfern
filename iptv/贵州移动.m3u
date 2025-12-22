@@ -1,0 +1,396 @@
+非常抱歉，我之前的回复确实存在问题。让我重新为您提供完整的、格式正确的M3U8播放列表。所有频道都已添加"贵州移动"分组，CCTV频道名称已统一为大写格式，并按照您的要求使用您提供的图标地址。
+
+#EXTM3U x-tvg-url="http://e.erw.cc/e.xml"
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV1.png" group-title="贵州移动",CCTV1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV1.png" group-title="贵州移动",CCTV1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225726/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV2.png" group-title="贵州移动",CCTV2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV3.png" group-title="贵州移动",CCTV3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226040/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV3.png" group-title="贵州移动",CCTV3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226008/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV4.png" group-title="贵州移动",CCTV4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225779/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV4.png" group-title="贵州移动",CCTV4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225744/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV5.png" group-title="贵州移动",CCTV5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226024/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV5.png" group-title="贵州移动",CCTV5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226043/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV6.png" group-title="贵州移动",CCTV6
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226011/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV6.png" group-title="贵州移动",CCTV6
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226046/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV7.png" group-title="贵州移动",CCTV7
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225745/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV8.png" group-title="贵州移动",CCTV8
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226005/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV8.png" group-title="贵州移动",CCTV8
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226060/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV9.png" group-title="贵州移动",CCTV9
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226031/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV10.png" group-title="贵州移动",CCTV10
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225685/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV11.png" group-title="贵州移动",CCTV11
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225746/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV12.png" group-title="贵州移动",CCTV12
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225747/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV13.png" group-title="贵州移动",CCTV13
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225748/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV14.png" group-title="贵州移动",CCTV14
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225727/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV15.png" group-title="贵州移动",CCTV15
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225749/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV16.png" group-title="贵州移动",CCTV16
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226356/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV17.png" group-title="贵州移动",CCTV17
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226027/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV4K.png" group-title="贵州移动",CCTV4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226348/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV兵器科技.png" group-title="贵州移动",CCTV兵器科技
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225676/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV电视指南.png" group-title="贵州移动",CCTV电视指南
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225673/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV第一剧场.png" group-title="贵州移动",CCTV第一剧场
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225702/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV风云剧场.png" group-title="贵州移动",CCTV风云剧场
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225700/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV风云音乐.png" group-title="贵州移动",CCTV风云音乐
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225698/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV风云足球.png" group-title="贵州移动",CCTV风云足球
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225734/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV高尔夫网球.png" group-title="贵州移动",CCTV高尔夫网球
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225674/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV怀旧剧场.png" group-title="贵州移动",CCTV怀旧剧场
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225765/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV老故事.png" group-title="贵州移动",CCTV老故事
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225677/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV女性时尚.png" group-title="贵州移动",CCTV女性时尚
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225699/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV世界地理.png" group-title="贵州移动",CCTV世界地理
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225733/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV中学生.png" group-title="贵州移动",CCTV中学生
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225663/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV新科动漫.png" group-title="贵州移动",CCTV新科动漫
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225678/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CCTV央视文化精品.png" group-title="贵州移动",CCTV央视文化精品
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225675/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN.png" group-title="贵州移动",CGTN
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225664/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN记录.png" group-title="贵州移动",CGTN记录
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225670/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN法语.png" group-title="贵州移动",CGTN法语
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225665/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN西班牙语.png" group-title="贵州移动",CGTN西班牙语
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225666/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN阿拉伯语.png" group-title="贵州移动",CGTN阿拉伯语
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225669/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CGTN俄语.png" group-title="贵州移动",CGTN俄语
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225667/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CETV-1.png" group-title="贵州移动",CETV-1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225723/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/CETV早期教育.png" group-title="贵州移动",CETV早期教育
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225679/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖南卫视.png" group-title="贵州移动",湖南卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226354/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/江苏卫视.png" group-title="贵州移动",江苏卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226357/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京卫视.png" group-title="贵州移动",北京卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226359/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/广东卫视.png" group-title="贵州移动",广东卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226360/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/浙江卫视.png" group-title="贵州移动",浙江卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226331/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/山东卫视.png" group-title="贵州移动",山东卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226362/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/深圳卫视.png" group-title="贵州移动",深圳卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226365/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东方卫视.png" group-title="贵州移动",东方卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226374/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/四川卫视.png" group-title="贵州移动",四川卫视4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226377/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/安徽卫视.png" group-title="贵州移动",安徽卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225716/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/安徽卫视.png" group-title="贵州移动",安徽卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226072/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京卫视.png" group-title="贵州移动",北京卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226049/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京卫视.png" group-title="贵州移动",北京卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225754/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京纪实.png" group-title="贵州移动",北京纪实
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225768/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京纪实.png" group-title="贵州移动",北京纪实
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226075/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东方卫视.png" group-title="贵州移动",东方卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225752/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东方卫视.png" group-title="贵州移动",东方卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225783/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/上海纪实.png" group-title="贵州移动",上海纪实
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225767/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东方卫视.png" group-title="贵州移动",东方卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226055/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东南卫视.png" group-title="贵州移动",东南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226061/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/东南卫视.png" group-title="贵州移动",东南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225739/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/广东卫视.png" group-title="贵州移动",广东卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226041/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/广东卫视.png" group-title="贵州移动",广东卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225720/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/河北卫视.png" group-title="贵州移动",河北卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226058/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/河北卫视.png" group-title="贵州移动",河北卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225713/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黑龙江卫视.png" group-title="贵州移动",黑龙江卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226052/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黑龙江卫视.png" group-title="贵州移动",黑龙江卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225758/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖北卫视.png" group-title="贵州移动",湖北卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226044/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖北卫视.png" group-title="贵州移动",湖北卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225708/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖南卫视.png" group-title="贵州移动",湖南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226004/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖南卫视.png" group-title="贵州移动",湖南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225707/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/湖南卫视.png" group-title="贵州移动",湖南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225778/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/江苏卫视.png" group-title="贵州移动",江苏卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226029/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/江苏卫视.png" group-title="贵州移动",江苏卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225751/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/江西卫视.png" group-title="贵州移动",江西卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226063/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/江西卫视.png" group-title="贵州移动",江西卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225710/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/吉林卫视.png" group-title="贵州移动",吉林卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225753/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/吉林卫视.png" group-title="贵州移动",吉林卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226078/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/辽宁卫视.png" group-title="贵州移动",辽宁卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226050/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/辽宁卫视.png" group-title="贵州移动",辽宁卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225717/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/山东卫视.png" group-title="贵州移动",山东卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226066/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/山东卫视.png" group-title="贵州移动",山东卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225728/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/深圳卫视.png" group-title="贵州移动",深圳卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225712/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/深圳卫视.png" group-title="贵州移动",深圳卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226069/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/四川卫视.png" group-title="贵州移动",四川卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226035/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/四川卫视.png" group-title="贵州移动",四川卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225757/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/天津卫视.png" group-title="贵州移动",天津卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226067/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/天津卫视.png" group-title="贵州移动",天津卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225756/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/浙江卫视.png" group-title="贵州移动",浙江卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225750/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/浙江卫视.png" group-title="贵州移动",浙江卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225780/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州卫视.png" group-title="贵州移动",贵州卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225771/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州卫视.png" group-title="贵州移动",贵州卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225776/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州卫视.png" group-title="贵州移动",贵州卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225703/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/河南卫视.png" group-title="贵州移动",河南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226032/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/河南卫视.png" group-title="贵州移动",河南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/重庆卫视.png" group-title="贵州移动",重庆卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226038/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/重庆卫视.png" group-title="贵州移动",重庆卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225686/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/兵团卫视.png" group-title="贵州移动",兵团卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225722/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/甘肃卫视.png" group-title="贵州移动",甘肃卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225755/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/广西卫视.png" group-title="贵州移动",广西卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225711/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/海南卫视.png" group-title="贵州移动",海南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225762/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/广东南方卫视.png" group-title="贵州移动",广东南方卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225738/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/内蒙古卫视.png" group-title="贵州移动",内蒙古卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225718/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/宁夏卫视.png" group-title="贵州移动",宁夏卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225719/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/农林卫视.png" group-title="贵州移动",农林卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225696/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/青海卫视.png" group-title="贵州移动",青海卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225760/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/安多卫视.png" group-title="贵州移动",安多卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225694/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/三沙卫视.png" group-title="贵州移动",三沙卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225693/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/山东教育卫视.png" group-title="贵州移动",山东教育卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225764/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/山西卫视.png" group-title="贵州移动",山西卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225730/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/康巴卫视.png" group-title="贵州移动",康巴卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225695/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/厦门卫视.png" group-title="贵州移动",厦门卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225761/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/新疆卫视.png" group-title="贵州移动",新疆卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225759/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/西藏卫视.png" group-title="贵州移动",西藏卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225668/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/西藏藏语.png" group-title="贵州移动",西藏藏语
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225697/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/延边卫视.png" group-title="贵州移动",延边卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225721/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/云南卫视.png" group-title="贵州移动",云南卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225687/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/陕西卫视.png" group-title="贵州移动",陕西卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225688/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/动画王国.png" group-title="贵州移动",动画王国
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225785/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/优漫卡通.png" group-title="贵州移动",优漫卡通
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225763/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/嘉佳卡通.png" group-title="贵州移动",嘉佳卡通
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225690/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/金鹰纪实.png" group-title="贵州移动",金鹰纪实
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225671/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/金鹰纪实.png" group-title="贵州移动",金鹰纪实
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226064/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/金鹰卡通.png" group-title="贵州移动",金鹰卡通
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225731/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/北京卡酷.png" group-title="贵州移动",北京卡酷
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225732/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/哈哈炫动.png" group-title="贵州移动",哈哈炫动
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225689/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/武术世界.png" group-title="贵州移动",武术世界
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225691/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/国学频道.png" group-title="贵州移动",国学频道
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225692/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/梨园频道.png" group-title="贵州移动",梨园频道
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225701/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/靓妆频道.png" group-title="贵州移动",靓妆频道
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225680/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/环球奇观.png" group-title="贵州移动",环球奇观
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225681/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/深圳DV生活.png" group-title="贵州移动",深圳DV生活
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225735/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/重庆汽摩.png" group-title="贵州移动",重庆汽摩
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225736/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/英语辅导.png" group-title="贵州移动",英语辅导
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225737/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/彩民在线.png" group-title="贵州移动",彩民在线
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225724/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/天元围棋.png" group-title="贵州移动",天元围棋
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225714/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/文物宝库.png" group-title="贵州移动",文物宝库
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225766/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州卫视.png" group-title="贵州移动",贵州卫视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225776/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州2.png" group-title="贵州移动",贵州2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225682/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州3.png" group-title="贵州移动",贵州3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225704/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州4.png" group-title="贵州移动",贵州4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225740/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州5.png" group-title="贵州移动",贵州5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225662/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州6.png" group-title="贵州移动",贵州6
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225672/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州7.png" group-title="贵州移动",贵州7
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225741/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵州移动电视.png" group-title="贵州移动",贵州移动电视
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225774/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳1.png" group-title="贵州移动",贵阳1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226037/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳1.png" group-title="贵州移动",贵阳1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225743/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳2.png" group-title="贵州移动",贵阳2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225684/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳3.png" group-title="贵州移动",贵阳3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225725/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳4.png" group-title="贵州移动",贵阳4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225705/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵阳5.png" group-title="贵州移动",贵阳5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225715/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/贵安电视台.png" group-title="贵州移动",贵安电视台
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225683/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/家有购物.png" group-title="贵州移动",家有购物
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225742/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/遵义综合.png" group-title="贵州移动",遵义综合
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226026/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/遵义公共.png" group-title="贵州移动",遵义公共
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226028/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/遵义都市.png" group-title="贵州移动",遵义都市
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226051/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/安顺新闻.png" group-title="贵州移动",安顺新闻
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226054/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/安顺公共.png" group-title="贵州移动",安顺公共
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226034/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黔南综合.png" group-title="贵州移动",黔南综合
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226022/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黔南公共.png" group-title="贵州移动",黔南公共
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226025/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/毕节1高清.png" group-title="贵州移动",毕节1高清
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226002/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/毕节2高清.png" group-title="贵州移动",毕节2高清
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226021/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黔西南综合.png" group-title="贵州移动",黔西南综合
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225995/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/黔西南公共.png" group-title="贵州移动",黔西南公共
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226003/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/六盘水1.png" group-title="贵州移动",六盘水1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225772/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/六盘水2.png" group-title="贵州移动",六盘水2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225773/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/雷山综合.png" group-title="贵州移动",雷山综合
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225998/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/DOXTV.png" group-title="贵州移动",DOXTV
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226048/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/体育赛事.png" group-title="贵州移动",体育赛事
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226081/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/信号测试1.png" group-title="贵州移动",信号测试1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225781/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/信号测试2.png" group-title="贵州移动",信号测试2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226000/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV.png" group-title="贵州移动",G+TV
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226007/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV1.png" group-title="贵州移动",G+TV1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226010/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV2.png" group-title="贵州移动",G+TV2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226033/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV3.png" group-title="贵州移动",G+TV3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226013/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV4.png" group-title="贵州移动",G+TV4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226014/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV5.png" group-title="贵州移动",G+TV5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226016/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV6.png" group-title="贵州移动",G+TV6
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226017/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV4K.png" group-title="贵州移动",G+TV4K
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226019/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV7.png" group-title="贵州移动",G+TV7
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226020/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV8.png" group-title="贵州移动",G+TV8
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226036/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV9.png" group-title="贵州移动",G+TV9
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226039/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV10.png" group-title="贵州移动",G+TV10
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226042/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/G+TV11.png" group-title="贵州移动",G+TV11
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226045/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225775/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV1
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225782/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV2
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225784/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV3
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225786/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV4
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225787/1/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/wind005/TVlive/refs/heads/main/LOGO/BestV.png" group-title="贵州移动",BestV5
+http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225999/1/index.m3u8?fmt=ts2hls
